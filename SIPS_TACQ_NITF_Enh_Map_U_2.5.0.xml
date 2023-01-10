@@ -1,0 +1,2530 @@
+<SIPS_TACQ_NITF_Enh_Map>
+    <Enh_Map_Version>1</Enh_Map_Version>
+    <SIPS_Version>2.5.0</SIPS_Version>
+    <ReportClassification>UNCLASSIFIED</ReportClassification>
+    <IssueDate>2022-08-29</IssueDate>
+    <NumberOfRecords>45</NumberOfRecords>
+    <Record>
+        <Classification>U</Classification>
+        <RN>33</RN>
+        <CommonName>ASARS2 SAR</CommonName>
+        <Comment/>
+        <OriginalEffectivity>Current NSG Product</OriginalEffectivity>
+        <EnhancementBins>
+            <numberOfBins>1</numberOfBins>
+            <Bin>
+                <BinNumber>1</BinNumber>
+                <InputAttributes>
+                    <NumberOfInputAttributes>3</NumberOfInputAttributes>
+                    <InputAttribute>
+                        <AttributeName>ISORCE</AttributeName>
+                        <AttributeType>ValueList</AttributeType>
+                        <AttributeValues>
+                            <value>AIP                                       </value>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>ICAT</AttributeName>
+                        <AttributeType>ValueList</AttributeType>
+                        <AttributeValues>
+                            <value>SAR     </value>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>Platform_IID2_s</AttributeName>
+                        <AttributeType>ValueList</AttributeType>
+                        <AttributeValues>
+                            <value>9Z</value>
+                        </AttributeValues>
+                    </InputAttribute>
+                </InputAttributes>
+                <DisplayAttributes>
+                    <SAR_InverseRemap>PEDF</SAR_InverseRemap>
+                    <RGB_Band_Order>Use IREPBAND</RGB_Band_Order>
+                    <Default_Rotation>Shadows Down</Default_Rotation>
+                    <Interpolation>LaGrange</Interpolation>
+                    <DRA_Method>Min/Max</DRA_Method>
+                    <Auto_DRA>On</Auto_DRA>
+                    <IDEX_DRA_Amod/>
+                    <IDEX_DRA_Bmod/>
+                    <DRA_Pmin>0.18</DRA_Pmin>
+                    <DRA_Pmax>0.9995</DRA_Pmax>
+                    <MTFC_Family>0</MTFC_Family>
+                    <MTFC_Member>5</MTFC_Member>
+                    <TTC_Family>0</TTC_Family>
+                    <TTC_Member>35</TTC_Member>
+                </DisplayAttributes>
+            </Bin>
+        </EnhancementBins>
+    </Record>
+    <Record>
+        <Classification>U</Classification>
+        <RN>34</RN>
+        <CommonName>Globalhawk SAR</CommonName>
+        <Comment/>
+        <OriginalEffectivity>Current NSG Product</OriginalEffectivity>
+        <EnhancementBins>
+            <numberOfBins>1</numberOfBins>
+            <Bin>
+                <BinNumber>1</BinNumber>
+                <InputAttributes>
+                    <NumberOfInputAttributes>3</NumberOfInputAttributes>
+                    <InputAttribute>
+                        <AttributeName>ISORCE</AttributeName>
+                        <AttributeType>ValueList</AttributeType>
+                        <AttributeValues>
+                            <value>GLOBALHAWK                                </value>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>ICAT</AttributeName>
+                        <AttributeType>ValueList</AttributeType>
+                        <AttributeValues>
+                            <value>SAR     </value>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>Platform_IID2_s</AttributeName>
+                        <AttributeType>ValueList</AttributeType>
+                        <AttributeValues>
+                            <value>9Z</value>
+                        </AttributeValues>
+                    </InputAttribute>
+                </InputAttributes>
+                <DisplayAttributes>
+                    <SAR_InverseRemap>PEDF</SAR_InverseRemap>
+                    <RGB_Band_Order>Use IREPBAND</RGB_Band_Order>
+                    <Default_Rotation>Shadows Down</Default_Rotation>
+                    <Interpolation>LaGrange</Interpolation>
+                    <DRA_Method>Min/Max</DRA_Method>
+                    <Auto_DRA>On</Auto_DRA>
+                    <IDEX_DRA_Amod/>
+                    <IDEX_DRA_Bmod/>
+                    <DRA_Pmin>0.15</DRA_Pmin>
+                    <DRA_Pmax>0.995</DRA_Pmax>
+                    <MTFC_Family>0</MTFC_Family>
+                    <MTFC_Member>5</MTFC_Member>
+                    <TTC_Family>0</TTC_Family>
+                    <TTC_Member>38</TTC_Member>
+                </DisplayAttributes>
+            </Bin>
+        </EnhancementBins>
+    </Record>
+    <Record>
+        <Classification>U</Classification>
+        <RN>39</RN>
+        <CommonName>ORS</CommonName>
+        <Comment/>
+        <OriginalEffectivity>Current NSG Product</OriginalEffectivity>
+        <EnhancementBins>
+            <numberOfBins>1</numberOfBins>
+            <Bin>
+                <BinNumber>1</BinNumber>
+                <InputAttributes>
+                    <NumberOfInputAttributes>4</NumberOfInputAttributes>
+                    <InputAttribute>
+                        <AttributeName>ISORCE</AttributeName>
+                        <AttributeType>ValueList</AttributeType>
+                        <AttributeValues>
+                            <value>ORS-1 GR-M80                              </value>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>ICAT</AttributeName>
+                        <AttributeType>ValueList</AttributeType>
+                        <AttributeValues>
+                            <value>VIS     </value>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>Platform_IID2_s</AttributeName>
+                        <AttributeType>ValueList</AttributeType>
+                        <AttributeValues>
+                            <value>25</value>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>VehicleNumber_IID2_s</AttributeName>
+                        <AttributeType>valueRange</AttributeType>
+                        <AttributeValues>
+                            <minInclusive>50</minInclusive>
+                            <maxInclusive>59</maxInclusive>
+                        </AttributeValues>
+                    </InputAttribute>
+                </InputAttributes>
+                <DisplayAttributes>
+                    <SAR_InverseRemap/>
+                    <RGB_Band_Order>Use IREPBAND</RGB_Band_Order>
+                    <Default_Rotation>Up is Up</Default_Rotation>
+                    <Interpolation>LaGrange</Interpolation>
+                    <DRA_Method>IDEX</DRA_Method>
+                    <Auto_DRA>On</Auto_DRA>
+                    <IDEX_DRA_Amod>0.1</IDEX_DRA_Amod>
+                    <IDEX_DRA_Bmod>0.5</IDEX_DRA_Bmod>
+                    <DRA_Pmin>0.025</DRA_Pmin>
+                    <DRA_Pmax>0.99</DRA_Pmax>
+                    <MTFC_Family>0</MTFC_Family>
+                    <MTFC_Member>20</MTFC_Member>
+                    <TTC_Family>0</TTC_Family>
+                    <TTC_Member>9</TTC_Member>
+                </DisplayAttributes>
+            </Bin>
+        </EnhancementBins>
+    </Record>
+    <Record>
+        <Classification>U</Classification>
+        <RN>43</RN>
+        <CommonName>RTNESS/RTNISS VIS</CommonName>
+        <Comment/>
+        <OriginalEffectivity>Current NSG Product</OriginalEffectivity>
+        <EnhancementBins>
+            <numberOfBins>1</numberOfBins>
+            <Bin>
+                <BinNumber>1</BinNumber>
+                <InputAttributes>
+                    <NumberOfInputAttributes>3</NumberOfInputAttributes>
+                    <InputAttribute>
+                        <AttributeName>ISORCE</AttributeName>
+                        <AttributeType>ValueList</AttributeType>
+                        <AttributeValues>
+                            <value>GLOBALHAWK                                </value>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>ICAT</AttributeName>
+                        <AttributeType>ValueList</AttributeType>
+                        <AttributeValues>
+                            <value>VIS     </value>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>Platform_IID2_s</AttributeName>
+                        <AttributeType>ValueList</AttributeType>
+                        <AttributeValues>
+                            <value>9Z</value>
+                        </AttributeValues>
+                    </InputAttribute>
+                </InputAttributes>
+                <DisplayAttributes>
+                    <SAR_InverseRemap/>
+                    <RGB_Band_Order>Use IREPBAND</RGB_Band_Order>
+                    <Default_Rotation>Up is Up</Default_Rotation>
+                    <Interpolation>LaGrange</Interpolation>
+                    <DRA_Method>IDEX</DRA_Method>
+                    <Auto_DRA>On</Auto_DRA>
+                    <IDEX_DRA_Amod>0.1</IDEX_DRA_Amod>
+                    <IDEX_DRA_Bmod>0.5</IDEX_DRA_Bmod>
+                    <DRA_Pmin>0.025</DRA_Pmin>
+                    <DRA_Pmax>0.99</DRA_Pmax>
+                    <MTFC_Family>0</MTFC_Family>
+                    <MTFC_Member>24</MTFC_Member>
+                    <TTC_Family>0</TTC_Family>
+                    <TTC_Member>12</TTC_Member>
+                </DisplayAttributes>
+            </Bin>
+        </EnhancementBins>
+    </Record>
+    <Record>
+        <Classification>U</Classification>
+        <RN>44</RN>
+        <CommonName>GEOEYE PAN</CommonName>
+        <Comment/>
+        <OriginalEffectivity>Current NSG Product</OriginalEffectivity>
+        <EnhancementBins>
+            <numberOfBins>1</numberOfBins>
+            <Bin>
+                <BinNumber>1</BinNumber>
+                <InputAttributes>
+                    <NumberOfInputAttributes>3</NumberOfInputAttributes>
+                    <InputAttribute>
+                        <AttributeName>ISORCE</AttributeName>
+                        <AttributeType>ValueList</AttributeType>
+                        <AttributeValues>
+                            <value>DigitalGlobe                              </value>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>ICAT</AttributeName>
+                        <AttributeType>ValueList</AttributeType>
+                        <AttributeValues>
+                            <value>VIS     </value>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>Platform_IID2_s</AttributeName>
+                        <AttributeType>ValueList</AttributeType>
+                        <AttributeValues>
+                            <value>GE</value>
+                        </AttributeValues>
+                    </InputAttribute>
+                </InputAttributes>
+                <DisplayAttributes>
+                    <SAR_InverseRemap/>
+                    <RGB_Band_Order>Use IREPBAND</RGB_Band_Order>
+                    <Default_Rotation>Up is Up</Default_Rotation>
+                    <Interpolation>LaGrange</Interpolation>
+                    <DRA_Method>IDEX</DRA_Method>
+                    <Auto_DRA>On</Auto_DRA>
+                    <IDEX_DRA_Amod>0.1</IDEX_DRA_Amod>
+                    <IDEX_DRA_Bmod>0.5</IDEX_DRA_Bmod>
+                    <DRA_Pmin>0.025</DRA_Pmin>
+                    <DRA_Pmax>0.995</DRA_Pmax>
+                    <MTFC_Family>0</MTFC_Family>
+                    <MTFC_Member>21</MTFC_Member>
+                    <TTC_Family>0</TTC_Family>
+                    <TTC_Member>12</TTC_Member>
+                </DisplayAttributes>
+            </Bin>
+        </EnhancementBins>
+    </Record>
+    <Record>
+        <Classification>U</Classification>
+        <RN>47</RN>
+        <CommonName>WORLDVIEW PAN</CommonName>
+        <Comment/>
+        <OriginalEffectivity>Current NSG Product</OriginalEffectivity>
+        <EnhancementBins>
+            <numberOfBins>1</numberOfBins>
+            <Bin>
+                <BinNumber>1</BinNumber>
+                <InputAttributes>
+                    <NumberOfInputAttributes>3</NumberOfInputAttributes>
+                    <InputAttribute>
+                        <AttributeName>ISORCE</AttributeName>
+                        <AttributeType>ValueList</AttributeType>
+                        <AttributeValues>
+                            <value>DigitalGlobe                              </value>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>ICAT</AttributeName>
+                        <AttributeType>ValueList</AttributeType>
+                        <AttributeValues>
+                            <value>VIS     </value>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>Platform_IID2_s</AttributeName>
+                        <AttributeType>ValueList</AttributeType>
+                        <AttributeValues>
+                            <value>WV</value>
+                        </AttributeValues>
+                    </InputAttribute>
+                </InputAttributes>
+                <DisplayAttributes>
+                    <SAR_InverseRemap/>
+                    <RGB_Band_Order>Use IREPBAND</RGB_Band_Order>
+                    <Default_Rotation>Up is Up</Default_Rotation>
+                    <Interpolation>LaGrange</Interpolation>
+                    <DRA_Method>IDEX</DRA_Method>
+                    <Auto_DRA>On</Auto_DRA>
+                    <IDEX_DRA_Amod>0.1</IDEX_DRA_Amod>
+                    <IDEX_DRA_Bmod>0.5</IDEX_DRA_Bmod>
+                    <DRA_Pmin>0.025</DRA_Pmin>
+                    <DRA_Pmax>0.99</DRA_Pmax>
+                    <MTFC_Family>0</MTFC_Family>
+                    <MTFC_Member>12</MTFC_Member>
+                    <TTC_Family>0</TTC_Family>
+                    <TTC_Member>14</TTC_Member>
+                </DisplayAttributes>
+            </Bin>
+        </EnhancementBins>
+    </Record>
+    <Record>
+        <Classification>U</Classification>
+        <RN>51</RN>
+        <CommonName>SYERS2 EO (NIR)</CommonName>
+        <Comment/>
+        <OriginalEffectivity>Current NSG Product</OriginalEffectivity>
+        <EnhancementBins>
+            <numberOfBins>1</numberOfBins>
+            <Bin>
+                <BinNumber>1</BinNumber>
+                <InputAttributes>
+                    <NumberOfInputAttributes>4</NumberOfInputAttributes>
+                    <InputAttribute>
+                        <AttributeName>ProductType_FTITLE</AttributeName>
+                        <AttributeType>regEx</AttributeType>
+                        <AttributeValues>
+                            <RegularExpression>(.+(NIR)([.][^.]+)?\s*$)</RegularExpression>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>ISORCE</AttributeName>
+                        <AttributeType>valueList</AttributeType>
+                        <AttributeValues>
+                            <value>SYERS2A                                   </value>
+                            <value>SYERS2B                                   </value>
+                            <value>SYERS2C G5-IR                             </value>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>ICAT</AttributeName>
+                        <AttributeType>ValueList</AttributeType>
+                        <AttributeValues>
+                            <value>EO      </value>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>Platform_IID2_s</AttributeName>
+                        <AttributeType>ValueList</AttributeType>
+                        <AttributeValues>
+                            <value>9Z</value>
+                        </AttributeValues>
+                    </InputAttribute>
+                </InputAttributes>
+                <DisplayAttributes>
+                    <SAR_InverseRemap/>
+                    <RGB_Band_Order>Use IREPBAND</RGB_Band_Order>
+                    <Default_Rotation>Up is Up</Default_Rotation>
+                    <Interpolation>LaGrange</Interpolation>
+                    <DRA_Method>IDEX</DRA_Method>
+                    <Auto_DRA>On</Auto_DRA>
+                    <IDEX_DRA_Amod>0.1</IDEX_DRA_Amod>
+                    <IDEX_DRA_Bmod>0.5</IDEX_DRA_Bmod>
+                    <DRA_Pmin>0.025</DRA_Pmin>
+                    <DRA_Pmax>0.99</DRA_Pmax>
+                    <MTFC_Family>0</MTFC_Family>
+                    <MTFC_Member>1</MTFC_Member>
+                    <TTC_Family>0</TTC_Family>
+                    <TTC_Member>26</TTC_Member>
+                </DisplayAttributes>
+            </Bin>
+        </EnhancementBins>
+    </Record>
+    <Record>
+        <Classification>U</Classification>
+        <RN>52</RN>
+        <CommonName>ORS</CommonName>
+        <Comment/>
+        <OriginalEffectivity>Current NSG Product</OriginalEffectivity>
+        <EnhancementBins>
+            <numberOfBins>1</numberOfBins>
+            <Bin>
+                <BinNumber>1</BinNumber>
+                <InputAttributes>
+                    <NumberOfInputAttributes>4</NumberOfInputAttributes>
+                    <InputAttribute>
+                        <AttributeName>ISORCE</AttributeName>
+                        <AttributeType>ValueList</AttributeType>
+                        <AttributeValues>
+                            <value>ORS-1 GR-M80                              </value>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>ICAT</AttributeName>
+                        <AttributeType>ValueList</AttributeType>
+                        <AttributeValues>
+                            <value>MS      </value>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>Platform_IID2_s</AttributeName>
+                        <AttributeType>ValueList</AttributeType>
+                        <AttributeValues>
+                            <value>25</value>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>VehicleNumber_IID2_s</AttributeName>
+                        <AttributeType>valueRange</AttributeType>
+                        <AttributeValues>
+                            <minInclusive>50</minInclusive>
+                            <maxInclusive>59</maxInclusive>
+                        </AttributeValues>
+                    </InputAttribute>
+                </InputAttributes>
+                <DisplayAttributes>
+                    <SAR_InverseRemap/>
+                    <RGB_Band_Order>Use IREPBAND</RGB_Band_Order>
+                    <Default_Rotation>Up is Up</Default_Rotation>
+                    <Interpolation>LaGrange</Interpolation>
+                    <DRA_Method>IDEX</DRA_Method>
+                    <Auto_DRA>On</Auto_DRA>
+                    <IDEX_DRA_Amod>0.1</IDEX_DRA_Amod>
+                    <IDEX_DRA_Bmod>0.5</IDEX_DRA_Bmod>
+                    <DRA_Pmin>0.025</DRA_Pmin>
+                    <DRA_Pmax>0.99</DRA_Pmax>
+                    <MTFC_Family>0</MTFC_Family>
+                    <MTFC_Member>20</MTFC_Member>
+                    <TTC_Family>0</TTC_Family>
+                    <TTC_Member>9</TTC_Member>
+                </DisplayAttributes>
+            </Bin>
+        </EnhancementBins>
+    </Record>
+    <Record>
+        <Classification>U</Classification>
+        <RN>53</RN>
+        <CommonName>SYERS2 (CL1)</CommonName>
+        <Comment/>
+        <OriginalEffectivity>Current NSG Product</OriginalEffectivity>
+        <EnhancementBins>
+            <numberOfBins>1</numberOfBins>
+            <Bin>
+                <BinNumber>1</BinNumber>
+                <InputAttributes>
+                    <NumberOfInputAttributes>4</NumberOfInputAttributes>
+                    <InputAttribute>
+                        <AttributeName>ProductType_FTITLE</AttributeName>
+                        <AttributeType>regEx</AttributeType>
+                        <AttributeValues>
+                            <RegularExpression>(.+(CL1)([.][^.]+)?\s*$)</RegularExpression>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>ISORCE</AttributeName>
+                        <AttributeType>valueList</AttributeType>
+                        <AttributeValues>
+                            <value>SYERS2A                                   </value>
+                            <value>SYERS2B                                   </value>
+                            <value>SYERS2C G5-IR                             </value>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>ICAT</AttributeName>
+                        <AttributeType>ValueList</AttributeType>
+                        <AttributeValues>
+                            <value>MS      </value>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>Platform_IID2_s</AttributeName>
+                        <AttributeType>ValueList</AttributeType>
+                        <AttributeValues>
+                            <value>9Z</value>
+                        </AttributeValues>
+                    </InputAttribute>
+                </InputAttributes>
+                <DisplayAttributes>
+                    <SAR_InverseRemap/>
+                    <RGB_Band_Order>5,3,1</RGB_Band_Order>
+                    <Default_Rotation>Up is Up</Default_Rotation>
+                    <Interpolation>LaGrange</Interpolation>
+                    <DRA_Method>IDEX</DRA_Method>
+                    <Auto_DRA>On</Auto_DRA>
+                    <IDEX_DRA_Amod>0.1</IDEX_DRA_Amod>
+                    <IDEX_DRA_Bmod>0.5</IDEX_DRA_Bmod>
+                    <DRA_Pmin>0.025</DRA_Pmin>
+                    <DRA_Pmax>0.99</DRA_Pmax>
+                    <MTFC_Family>0</MTFC_Family>
+                    <MTFC_Member>24</MTFC_Member>
+                    <TTC_Family>0</TTC_Family>
+                    <TTC_Member>23</TTC_Member>
+                </DisplayAttributes>
+            </Bin>
+        </EnhancementBins>
+    </Record>
+    <Record>
+        <Classification>U</Classification>
+        <RN>54</RN>
+        <CommonName>SYERS2 (MBP)</CommonName>
+        <Comment/>
+        <OriginalEffectivity>Current NSG Product</OriginalEffectivity>
+        <EnhancementBins>
+            <numberOfBins>1</numberOfBins>
+            <Bin>
+                <BinNumber>1</BinNumber>
+                <InputAttributes>
+                    <NumberOfInputAttributes>4</NumberOfInputAttributes>
+                    <InputAttribute>
+                        <AttributeName>ProductType_FTITLE</AttributeName>
+                        <AttributeType>regEx</AttributeType>
+                        <AttributeValues>
+                            <RegularExpression>(.+(MBP)([.][^.]+)?\s*$)</RegularExpression>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>ISORCE</AttributeName>
+                        <AttributeType>valueList</AttributeType>
+                        <AttributeValues>
+                            <value>SYERS2A                                   </value>
+                            <value>SYERS2B                                   </value>
+                            <value>SYERS2C G5-IR                             </value>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>ICAT</AttributeName>
+                        <AttributeType>ValueList</AttributeType>
+                        <AttributeValues>
+                            <value>MS      </value>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>Platform_IID2_s</AttributeName>
+                        <AttributeType>ValueList</AttributeType>
+                        <AttributeValues>
+                            <value>9Z</value>
+                        </AttributeValues>
+                    </InputAttribute>
+                </InputAttributes>
+                <DisplayAttributes>
+                    <SAR_InverseRemap/>
+                    <RGB_Band_Order>3,2,1</RGB_Band_Order>
+                    <Default_Rotation>Up is Up</Default_Rotation>
+                    <Interpolation>LaGrange</Interpolation>
+                    <DRA_Method>IDEX</DRA_Method>
+                    <Auto_DRA>On</Auto_DRA>
+                    <IDEX_DRA_Amod>0.1</IDEX_DRA_Amod>
+                    <IDEX_DRA_Bmod>0.5</IDEX_DRA_Bmod>
+                    <DRA_Pmin>0.025</DRA_Pmin>
+                    <DRA_Pmax>0.99</DRA_Pmax>
+                    <MTFC_Family>0</MTFC_Family>
+                    <MTFC_Member>25</MTFC_Member>
+                    <TTC_Family>0</TTC_Family>
+                    <TTC_Member>23</TTC_Member>
+                </DisplayAttributes>
+            </Bin>
+        </EnhancementBins>
+    </Record>
+    <Record>
+        <Classification>U</Classification>
+        <RN>55</RN>
+        <CommonName>SYERS2 (TRX)</CommonName>
+        <Comment/>
+        <OriginalEffectivity>Current NSG Product</OriginalEffectivity>
+        <EnhancementBins>
+            <numberOfBins>1</numberOfBins>
+            <Bin>
+                <BinNumber>1</BinNumber>
+                <InputAttributes>
+                    <NumberOfInputAttributes>4</NumberOfInputAttributes>
+                    <InputAttribute>
+                        <AttributeName>ProductType_FTITLE</AttributeName>
+                        <AttributeType>regEx</AttributeType>
+                        <AttributeValues>
+                            <RegularExpression>(.+(TRX)([.][^.]+)?\s*$)</RegularExpression>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>ISORCE</AttributeName>
+                        <AttributeType>valueList</AttributeType>
+                        <AttributeValues>
+                            <value>SYERS2A                                   </value>
+                            <value>SYERS2B                                   </value>
+                            <value>SYERS2C G5-IR                             </value>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>ICAT</AttributeName>
+                        <AttributeType>ValueList</AttributeType>
+                        <AttributeValues>
+                            <value>MS      </value>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>Platform_IID2_s</AttributeName>
+                        <AttributeType>ValueList</AttributeType>
+                        <AttributeValues>
+                            <value>9Z</value>
+                        </AttributeValues>
+                    </InputAttribute>
+                </InputAttributes>
+                <DisplayAttributes>
+                    <SAR_InverseRemap/>
+                    <RGB_Band_Order>Use IREPBAND</RGB_Band_Order>
+                    <Default_Rotation>Up is Up</Default_Rotation>
+                    <Interpolation>LaGrange</Interpolation>
+                    <DRA_Method>Min/Max</DRA_Method>
+                    <Auto_DRA>On</Auto_DRA>
+                    <IDEX_DRA_Amod/>
+                    <IDEX_DRA_Bmod/>
+                    <DRA_Pmin>0.01</DRA_Pmin>
+                    <DRA_Pmax>0.999</DRA_Pmax>
+                    <MTFC_Family>0</MTFC_Family>
+                    <MTFC_Member>1</MTFC_Member>
+                    <TTC_Family>0</TTC_Family>
+                    <TTC_Member>32</TTC_Member>
+                </DisplayAttributes>
+            </Bin>
+        </EnhancementBins>
+    </Record>
+    <Record>
+        <Classification>U</Classification>
+        <RN>56</RN>
+        <CommonName>GEOEYE MSI</CommonName>
+        <Comment/>
+        <OriginalEffectivity>Current NSG Product</OriginalEffectivity>
+        <EnhancementBins>
+            <numberOfBins>1</numberOfBins>
+            <Bin>
+                <BinNumber>1</BinNumber>
+                <InputAttributes>
+                    <NumberOfInputAttributes>3</NumberOfInputAttributes>
+                    <InputAttribute>
+                        <AttributeName>ISORCE</AttributeName>
+                        <AttributeType>ValueList</AttributeType>
+                        <AttributeValues>
+                            <value>DigitalGlobe                              </value>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>ICAT</AttributeName>
+                        <AttributeType>ValueList</AttributeType>
+                        <AttributeValues>
+                            <value>MS      </value>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>Platform_IID2_s</AttributeName>
+                        <AttributeType>ValueList</AttributeType>
+                        <AttributeValues>
+                            <value>GE</value>
+                        </AttributeValues>
+                    </InputAttribute>
+                </InputAttributes>
+                <DisplayAttributes>
+                    <SAR_InverseRemap/>
+                    <RGB_Band_Order>Use IREPBAND</RGB_Band_Order>
+                    <Default_Rotation>Up is Up</Default_Rotation>
+                    <Interpolation>LaGrange</Interpolation>
+                    <DRA_Method>IDEX</DRA_Method>
+                    <Auto_DRA>On</Auto_DRA>
+                    <IDEX_DRA_Amod>0.1</IDEX_DRA_Amod>
+                    <IDEX_DRA_Bmod>0.5</IDEX_DRA_Bmod>
+                    <DRA_Pmin>0.025</DRA_Pmin>
+                    <DRA_Pmax>0.99</DRA_Pmax>
+                    <MTFC_Family>0</MTFC_Family>
+                    <MTFC_Member>14</MTFC_Member>
+                    <TTC_Family>0</TTC_Family>
+                    <TTC_Member>14</TTC_Member>
+                </DisplayAttributes>
+            </Bin>
+        </EnhancementBins>
+    </Record>
+    <Record>
+        <Classification>U</Classification>
+        <RN>59</RN>
+        <CommonName>WORLDVIEW MSI</CommonName>
+        <Comment/>
+        <OriginalEffectivity>Current NSG Product</OriginalEffectivity>
+        <EnhancementBins>
+            <numberOfBins>1</numberOfBins>
+            <Bin>
+                <BinNumber>1</BinNumber>
+                <InputAttributes>
+                    <NumberOfInputAttributes>3</NumberOfInputAttributes>
+                    <InputAttribute>
+                        <AttributeName>ISORCE</AttributeName>
+                        <AttributeType>ValueList</AttributeType>
+                        <AttributeValues>
+                            <value>DigitalGlobe                              </value>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>ICAT</AttributeName>
+                        <AttributeType>ValueList</AttributeType>
+                        <AttributeValues>
+                            <value>MS      </value>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>Platform_IID2_s</AttributeName>
+                        <AttributeType>ValueList</AttributeType>
+                        <AttributeValues>
+                            <value>WV</value>
+                        </AttributeValues>
+                    </InputAttribute>
+                </InputAttributes>
+                <DisplayAttributes>
+                    <SAR_InverseRemap/>
+                    <RGB_Band_Order>Use IREPBAND</RGB_Band_Order>
+                    <Default_Rotation>Up is Up</Default_Rotation>
+                    <Interpolation>LaGrange</Interpolation>
+                    <DRA_Method>IDEX</DRA_Method>
+                    <Auto_DRA>On</Auto_DRA>
+                    <IDEX_DRA_Amod>0.1</IDEX_DRA_Amod>
+                    <IDEX_DRA_Bmod>0.5</IDEX_DRA_Bmod>
+                    <DRA_Pmin>0.0225</DRA_Pmin>
+                    <DRA_Pmax>0.99</DRA_Pmax>
+                    <MTFC_Family>0</MTFC_Family>
+                    <MTFC_Member>12</MTFC_Member>
+                    <TTC_Family>0</TTC_Family>
+                    <TTC_Member>11</TTC_Member>
+                </DisplayAttributes>
+            </Bin>
+        </EnhancementBins>
+    </Record>
+    <Record>
+        <Classification>U</Classification>
+        <RN>61</RN>
+        <CommonName>RTNESS/RTNISS IR</CommonName>
+        <Comment/>
+        <OriginalEffectivity>Current NSG Product</OriginalEffectivity>
+        <EnhancementBins>
+            <numberOfBins>1</numberOfBins>
+            <Bin>
+                <BinNumber>1</BinNumber>
+                <InputAttributes>
+                    <NumberOfInputAttributes>3</NumberOfInputAttributes>
+                    <InputAttribute>
+                        <AttributeName>ISORCE</AttributeName>
+                        <AttributeType>ValueList</AttributeType>
+                        <AttributeValues>
+                            <value>GLOBALHAWK                                </value>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>ICAT</AttributeName>
+                        <AttributeType>ValueList</AttributeType>
+                        <AttributeValues>
+                            <value>IR      </value>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>Platform_IID2_s</AttributeName>
+                        <AttributeType>ValueList</AttributeType>
+                        <AttributeValues>
+                            <value>9Z</value>
+                        </AttributeValues>
+                    </InputAttribute>
+                </InputAttributes>
+                <DisplayAttributes>
+                    <SAR_InverseRemap/>
+                    <RGB_Band_Order>Use IREPBAND</RGB_Band_Order>
+                    <Default_Rotation>Up is Up</Default_Rotation>
+                    <Interpolation>LaGrange</Interpolation>
+                    <DRA_Method>IDEX</DRA_Method>
+                    <Auto_DRA>On</Auto_DRA>
+                    <IDEX_DRA_Amod>0.1</IDEX_DRA_Amod>
+                    <IDEX_DRA_Bmod>0.5</IDEX_DRA_Bmod>
+                    <DRA_Pmin>0.025</DRA_Pmin>
+                    <DRA_Pmax>0.99</DRA_Pmax>
+                    <MTFC_Family>0</MTFC_Family>
+                    <MTFC_Member>21</MTFC_Member>
+                    <TTC_Family>0</TTC_Family>
+                    <TTC_Member>29</TTC_Member>
+                </DisplayAttributes>
+            </Bin>
+        </EnhancementBins>
+    </Record>
+    <Record>
+        <Classification>U</Classification>
+        <RN>62</RN>
+        <CommonName>SYERS2 IR (MX4)</CommonName>
+        <Comment/>
+        <OriginalEffectivity>Current NSG Product</OriginalEffectivity>
+        <EnhancementBins>
+            <numberOfBins>1</numberOfBins>
+            <Bin>
+                <BinNumber>1</BinNumber>
+                <InputAttributes>
+                    <NumberOfInputAttributes>4</NumberOfInputAttributes>
+                    <InputAttribute>
+                        <AttributeName>ProductType_FTITLE</AttributeName>
+                        <AttributeType>regEx</AttributeType>
+                        <AttributeValues>
+                            <RegularExpression>(.+(MX4)([.][^.]+)?\s*$)</RegularExpression>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>ISORCE</AttributeName>
+                        <AttributeType>valueList</AttributeType>
+                        <AttributeValues>
+                            <value>SYERS2A                                   </value>
+                            <value>SYERS2C G5-IR                             </value>
+                            <value>SYERS2B                                   </value>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>ICAT</AttributeName>
+                        <AttributeType>ValueList</AttributeType>
+                        <AttributeValues>
+                            <value>IR      </value>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>Platform_IID2_s</AttributeName>
+                        <AttributeType>ValueList</AttributeType>
+                        <AttributeValues>
+                            <value>9Z</value>
+                        </AttributeValues>
+                    </InputAttribute>
+                </InputAttributes>
+                <DisplayAttributes>
+                    <SAR_InverseRemap/>
+                    <RGB_Band_Order>Use IREPBAND</RGB_Band_Order>
+                    <Default_Rotation>Up is Up</Default_Rotation>
+                    <Interpolation>LaGrange</Interpolation>
+                    <DRA_Method>IDEX</DRA_Method>
+                    <Auto_DRA>On</Auto_DRA>
+                    <IDEX_DRA_Amod>0.1</IDEX_DRA_Amod>
+                    <IDEX_DRA_Bmod>0.5</IDEX_DRA_Bmod>
+                    <DRA_Pmin>0.025</DRA_Pmin>
+                    <DRA_Pmax>0.99</DRA_Pmax>
+                    <MTFC_Family>0</MTFC_Family>
+                    <MTFC_Member>5</MTFC_Member>
+                    <TTC_Family>0</TTC_Family>
+                    <TTC_Member>32</TTC_Member>
+                </DisplayAttributes>
+            </Bin>
+        </EnhancementBins>
+    </Record>
+    <Record>
+        <Classification>U</Classification>
+        <RN>64</RN>
+        <CommonName>WORLDVIEW-3 SWIR</CommonName>
+        <Comment/>
+        <OriginalEffectivity>Current NSG Product</OriginalEffectivity>
+        <EnhancementBins>
+            <numberOfBins>1</numberOfBins>
+            <Bin>
+                <BinNumber>1</BinNumber>
+                <InputAttributes>
+                    <NumberOfInputAttributes>3</NumberOfInputAttributes>
+                    <InputAttribute>
+                        <AttributeName>ISORCE</AttributeName>
+                        <AttributeType>ValueList</AttributeType>
+                        <AttributeValues>
+                            <value>DigitalGlobe                              </value>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>ICAT</AttributeName>
+                        <AttributeType>ValueList</AttributeType>
+                        <AttributeValues>
+                            <value>SWIR    </value>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>Platform_IID2_s</AttributeName>
+                        <AttributeType>ValueList</AttributeType>
+                        <AttributeValues>
+                            <value>WV</value>
+                        </AttributeValues>
+                    </InputAttribute>
+                </InputAttributes>
+                <DisplayAttributes>
+                    <SAR_InverseRemap/>
+                    <RGB_Band_Order>Use IREPBAND</RGB_Band_Order>
+                    <Default_Rotation>Up is Up</Default_Rotation>
+                    <Interpolation>LaGrange</Interpolation>
+                    <DRA_Method>IDEX</DRA_Method>
+                    <Auto_DRA>On</Auto_DRA>
+                    <IDEX_DRA_Amod>0.1</IDEX_DRA_Amod>
+                    <IDEX_DRA_Bmod>0.5</IDEX_DRA_Bmod>
+                    <DRA_Pmin>0.025</DRA_Pmin>
+                    <DRA_Pmax>0.99</DRA_Pmax>
+                    <MTFC_Family>0</MTFC_Family>
+                    <MTFC_Member>20</MTFC_Member>
+                    <TTC_Family>0</TTC_Family>
+                    <TTC_Member>12</TTC_Member>
+                </DisplayAttributes>
+            </Bin>
+        </EnhancementBins>
+    </Record>
+    <Record>
+        <Classification>U</Classification>
+        <RN>65</RN>
+        <CommonName>WORLDVIEW-3 CAVIS</CommonName>
+        <Comment/>
+        <OriginalEffectivity>Current NSG Product</OriginalEffectivity>
+        <EnhancementBins>
+            <numberOfBins>1</numberOfBins>
+            <Bin>
+                <BinNumber>1</BinNumber>
+                <InputAttributes>
+                    <NumberOfInputAttributes>3</NumberOfInputAttributes>
+                    <InputAttribute>
+                        <AttributeName>ISORCE</AttributeName>
+                        <AttributeType>ValueList</AttributeType>
+                        <AttributeValues>
+                            <value>DigitalGlobe                              </value>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>ICAT</AttributeName>
+                        <AttributeType>ValueList</AttributeType>
+                        <AttributeValues>
+                            <value>CAVIS   </value>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>Platform_IID2_s</AttributeName>
+                        <AttributeType>ValueList</AttributeType>
+                        <AttributeValues>
+                            <value>WV</value>
+                        </AttributeValues>
+                    </InputAttribute>
+                </InputAttributes>
+                <DisplayAttributes>
+                    <SAR_InverseRemap/>
+                    <RGB_Band_Order>Use IREPBAND</RGB_Band_Order>
+                    <Default_Rotation>Up is Up</Default_Rotation>
+                    <Interpolation>LaGrange</Interpolation>
+                    <DRA_Method>IDEX</DRA_Method>
+                    <Auto_DRA>On</Auto_DRA>
+                    <IDEX_DRA_Amod>0.1</IDEX_DRA_Amod>
+                    <IDEX_DRA_Bmod>0.5</IDEX_DRA_Bmod>
+                    <DRA_Pmin>0.025</DRA_Pmin>
+                    <DRA_Pmax>0.99</DRA_Pmax>
+                    <MTFC_Family>0</MTFC_Family>
+                    <MTFC_Member>20</MTFC_Member>
+                    <TTC_Family>0</TTC_Family>
+                    <TTC_Member>12</TTC_Member>
+                </DisplayAttributes>
+            </Bin>
+        </EnhancementBins>
+    </Record>
+    <Record>
+        <Classification>U</Classification>
+        <RN>222</RN>
+        <CommonName>PAN Tagged Record Extension (TRE)-Only Product</CommonName>
+        <Comment>NOT AN IMAGE PRODUCT - NO IMAGE SEGMENT DISPLAY REQUIRED</Comment>
+        <OriginalEffectivity>Current NSG Product</OriginalEffectivity>
+        <EnhancementBins>
+            <numberOfBins>1</numberOfBins>
+            <Bin>
+                <BinNumber>1</BinNumber>
+                <InputAttributes>
+                    <NumberOfInputAttributes>1</NumberOfInputAttributes>
+                    <InputAttribute>
+                        <AttributeName>IID1</AttributeName>
+                        <AttributeType>ValueList</AttributeType>
+                        <AttributeValues>
+                            <value>TRE-Only  </value>
+                        </AttributeValues>
+                    </InputAttribute>
+                </InputAttributes>
+                <DisplayAttributes>
+                    <SAR_InverseRemap/>
+                    <RGB_Band_Order>Use IREPBAND</RGB_Band_Order>
+                    <Default_Rotation>No Rotation</Default_Rotation>
+                    <Interpolation>Nearest Neighbor</Interpolation>
+                    <DRA_Method>Min/Max</DRA_Method>
+                    <Auto_DRA>Off</Auto_DRA>
+                    <IDEX_DRA_Amod/>
+                    <IDEX_DRA_Bmod/>
+                    <DRA_Pmin>0</DRA_Pmin>
+                    <DRA_Pmax>1</DRA_Pmax>
+                    <MTFC_Family>0</MTFC_Family>
+                    <MTFC_Member>5</MTFC_Member>
+                    <TTC_Family>0</TTC_Family>
+                    <TTC_Member>32</TTC_Member>
+                </DisplayAttributes>
+            </Bin>
+        </EnhancementBins>
+    </Record>
+    <Record>
+        <Classification>U</Classification>
+        <RN>374</RN>
+        <CommonName>SAR SIDD WBID</CommonName>
+        <Comment>SAR SIDD WBID Segment Record</Comment>
+        <OriginalEffectivity>Current NSG Product</OriginalEffectivity>
+        <EnhancementBins>
+            <numberOfBins>1</numberOfBins>
+            <Bin>
+                <BinNumber>1</BinNumber>
+                <InputAttributes>
+                    <NumberOfInputAttributes>4</NumberOfInputAttributes>
+                    <InputAttribute>
+                        <AttributeName>ICAT</AttributeName>
+                        <AttributeType>ValueList</AttributeType>
+                        <AttributeValues>
+                            <value>SAR     </value>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>IID1</AttributeName>
+                        <AttributeType>regEx</AttributeType>
+                        <AttributeValues>
+                            <RegularExpression>SIDD(\d{3}|\d{2}|\d{1})(\s*)((\d{3}|\d{2}|\d{1})(\s*)|(\s{3}))</RegularExpression>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>ProductCreationClass</AttributeName>
+                        <AttributeType>regEx</AttributeType>
+                        <AttributeValues>
+                            <RegularExpression>(.*Detected Image.*|.*WBID.*)</RegularExpression>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>ProductCreationType</AttributeName>
+                        <AttributeType>regEx</AttributeType>
+                        <AttributeValues>
+                            <RegularExpression>(.*Cross Polarized.*|.*Like Polarized.*|.*Long Dwell.*|.*WBID.*)</RegularExpression>
+                        </AttributeValues>
+                    </InputAttribute>
+                </InputAttributes>
+                <DisplayAttributes>
+                    <SAR_InverseRemap>PEDF</SAR_InverseRemap>
+                    <RGB_Band_Order>Use IREPBAND</RGB_Band_Order>
+                    <Default_Rotation>Shadows Down</Default_Rotation>
+                    <Interpolation>LaGrange</Interpolation>
+                    <DRA_Method>Min/Max</DRA_Method>
+                    <Auto_DRA>On</Auto_DRA>
+                    <IDEX_DRA_Amod/>
+                    <IDEX_DRA_Bmod/>
+                    <DRA_Pmin>0.0</DRA_Pmin>
+                    <DRA_Pmax>0.9995</DRA_Pmax>
+                    <MTFC_Family>0</MTFC_Family>
+                    <MTFC_Member>5</MTFC_Member>
+                    <TTC_Family>0</TTC_Family>
+                    <TTC_Member>32</TTC_Member>
+                </DisplayAttributes>
+            </Bin>
+        </EnhancementBins>
+    </Record>
+    <Record>
+        <Classification>U</Classification>
+        <RN>375</RN>
+        <CommonName>SAR SIDD 2CMV-Baseline</CommonName>
+        <Comment>SAR SIDD Two-Color Multiview Baseline Image Segment Record</Comment>
+        <OriginalEffectivity>Current NSG Product</OriginalEffectivity>
+        <EnhancementBins>
+            <numberOfBins>1</numberOfBins>
+            <Bin>
+                <BinNumber>1</BinNumber>
+                <InputAttributes>
+                    <NumberOfInputAttributes>4</NumberOfInputAttributes>
+                    <InputAttribute>
+                        <AttributeName>ICAT</AttributeName>
+                        <AttributeType>ValueList</AttributeType>
+                        <AttributeValues>
+                            <value>SAR     </value>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>IID1</AttributeName>
+                        <AttributeType>regEx</AttributeType>
+                        <AttributeValues>
+                            <RegularExpression>SIDD(\d{3}|\d{2}|\d{1})(\s*)((\d{3}|\d{2}|\d{1})(\s*)|(\s{3}))</RegularExpression>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>ProductCreationClass</AttributeName>
+                        <AttributeType>regEx</AttributeType>
+                        <AttributeValues>
+                            <RegularExpression>2 Color Multiview</RegularExpression>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>ProductCreationType</AttributeName>
+                        <AttributeType>regEx</AttributeType>
+                        <AttributeValues>
+                            <RegularExpression>Baseline Image</RegularExpression>
+                        </AttributeValues>
+                    </InputAttribute>
+                </InputAttributes>
+                <DisplayAttributes>
+                    <SAR_InverseRemap>none</SAR_InverseRemap>
+                    <RGB_Band_Order>Use IREPBAND</RGB_Band_Order>
+                    <Default_Rotation>Shadows Down</Default_Rotation>
+                    <Interpolation>LaGrange</Interpolation>
+                    <DRA_Method>Min/Max</DRA_Method>
+                    <Auto_DRA>Off</Auto_DRA>
+                    <IDEX_DRA_Amod/>
+                    <IDEX_DRA_Bmod/>
+                    <DRA_Pmin>0.0</DRA_Pmin>
+                    <DRA_Pmax>1</DRA_Pmax>
+                    <MTFC_Family>0</MTFC_Family>
+                    <MTFC_Member>5</MTFC_Member>
+                    <TTC_Family>0</TTC_Family>
+                    <TTC_Member>32</TTC_Member>
+                </DisplayAttributes>
+            </Bin>
+        </EnhancementBins>
+    </Record>
+    <Record>
+        <Classification>U</Classification>
+        <RN>376</RN>
+        <CommonName>SAR SIDD 2CMV-Reference</CommonName>
+        <Comment>SAR SIDD Two-Color Multiview Reference Image Segment Record</Comment>
+        <OriginalEffectivity>Current NSG Product</OriginalEffectivity>
+        <EnhancementBins>
+            <numberOfBins>1</numberOfBins>
+            <Bin>
+                <BinNumber>1</BinNumber>
+                <InputAttributes>
+                    <NumberOfInputAttributes>4</NumberOfInputAttributes>
+                    <InputAttribute>
+                        <AttributeName>ICAT</AttributeName>
+                        <AttributeType>ValueList</AttributeType>
+                        <AttributeValues>
+                            <value>SAR     </value>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>IID1</AttributeName>
+                        <AttributeType>regEx</AttributeType>
+                        <AttributeValues>
+                            <RegularExpression>SIDD(\d{3}|\d{2}|\d{1})(\s*)((\d{3}|\d{2}|\d{1})(\s*)|(\s{3}))</RegularExpression>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>ProductCreationClass</AttributeName>
+                        <AttributeType>regEx</AttributeType>
+                        <AttributeValues>
+                            <RegularExpression>2 Color Multiview</RegularExpression>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>ProductCreationType</AttributeName>
+                        <AttributeType>regEx</AttributeType>
+                        <AttributeValues>
+                            <RegularExpression>Registered Reference Image</RegularExpression>
+                        </AttributeValues>
+                    </InputAttribute>
+                </InputAttributes>
+                <DisplayAttributes>
+                    <SAR_InverseRemap>PEDF</SAR_InverseRemap>
+                    <RGB_Band_Order>Use IREPBAND</RGB_Band_Order>
+                    <Default_Rotation>Shadows Down</Default_Rotation>
+                    <Interpolation>LaGrange</Interpolation>
+                    <DRA_Method>Min/Max</DRA_Method>
+                    <Auto_DRA>On</Auto_DRA>
+                    <IDEX_DRA_Amod/>
+                    <IDEX_DRA_Bmod/>
+                    <DRA_Pmin>0.0</DRA_Pmin>
+                    <DRA_Pmax>0.9995</DRA_Pmax>
+                    <MTFC_Family>0</MTFC_Family>
+                    <MTFC_Member>5</MTFC_Member>
+                    <TTC_Family>0</TTC_Family>
+                    <TTC_Member>32</TTC_Member>
+                </DisplayAttributes>
+            </Bin>
+        </EnhancementBins>
+    </Record>
+    <Record>
+        <Classification>U</Classification>
+        <RN>377</RN>
+        <CommonName>SAR SIDD 2CMV-Match</CommonName>
+        <Comment>SAR SIDD Two-Color Multiview Match Image Segment Record</Comment>
+        <OriginalEffectivity>Current NSG Product</OriginalEffectivity>
+        <EnhancementBins>
+            <numberOfBins>1</numberOfBins>
+            <Bin>
+                <BinNumber>1</BinNumber>
+                <InputAttributes>
+                    <NumberOfInputAttributes>4</NumberOfInputAttributes>
+                    <InputAttribute>
+                        <AttributeName>ICAT</AttributeName>
+                        <AttributeType>ValueList</AttributeType>
+                        <AttributeValues>
+                            <value>SAR     </value>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>IID1</AttributeName>
+                        <AttributeType>regEx</AttributeType>
+                        <AttributeValues>
+                            <RegularExpression>SIDD(\d{3}|\d{2}|\d{1})(\s*)((\d{3}|\d{2}|\d{1})(\s*)|(\s{3}))</RegularExpression>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>ProductCreationClass</AttributeName>
+                        <AttributeType>regEx</AttributeType>
+                        <AttributeValues>
+                            <RegularExpression>2 Color Multiview</RegularExpression>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>ProductCreationType</AttributeName>
+                        <AttributeType>regEx</AttributeType>
+                        <AttributeValues>
+                            <RegularExpression>Registered Match Image</RegularExpression>
+                        </AttributeValues>
+                    </InputAttribute>
+                </InputAttributes>
+                <DisplayAttributes>
+                    <SAR_InverseRemap>PEDF</SAR_InverseRemap>
+                    <RGB_Band_Order>Use IREPBAND</RGB_Band_Order>
+                    <Default_Rotation>Shadows Down</Default_Rotation>
+                    <Interpolation>LaGrange</Interpolation>
+                    <DRA_Method>Min/Max</DRA_Method>
+                    <Auto_DRA>On</Auto_DRA>
+                    <IDEX_DRA_Amod/>
+                    <IDEX_DRA_Bmod/>
+                    <DRA_Pmin>0.0</DRA_Pmin>
+                    <DRA_Pmax>0.9995</DRA_Pmax>
+                    <MTFC_Family>0</MTFC_Family>
+                    <MTFC_Member>5</MTFC_Member>
+                    <TTC_Family>0</TTC_Family>
+                    <TTC_Member>32</TTC_Member>
+                </DisplayAttributes>
+            </Bin>
+        </EnhancementBins>
+    </Record>
+    <Record>
+        <Classification>U</Classification>
+        <RN>378</RN>
+        <CommonName>SAR SIDD CCD-Magnitude</CommonName>
+        <Comment>SAR SIDD Coherent Change Detection Magnitude Segment Record</Comment>
+        <OriginalEffectivity>Current NSG Product</OriginalEffectivity>
+        <EnhancementBins>
+            <numberOfBins>1</numberOfBins>
+            <Bin>
+                <BinNumber>1</BinNumber>
+                <InputAttributes>
+                    <NumberOfInputAttributes>4</NumberOfInputAttributes>
+                    <InputAttribute>
+                        <AttributeName>ICAT</AttributeName>
+                        <AttributeType>ValueList</AttributeType>
+                        <AttributeValues>
+                            <value>SAR     </value>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>IID1</AttributeName>
+                        <AttributeType>regEx</AttributeType>
+                        <AttributeValues>
+                            <RegularExpression>SIDD(\d{3}|\d{2}|\d{1})(\s*)((\d{3}|\d{2}|\d{1})(\s*)|(\s{3}))</RegularExpression>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>ProductCreationClass</AttributeName>
+                        <AttributeType>regEx</AttributeType>
+                        <AttributeValues>
+                            <RegularExpression>Coherent Change Detection</RegularExpression>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>ProductCreationType</AttributeName>
+                        <AttributeType>regEx</AttributeType>
+                        <AttributeValues>
+                            <RegularExpression>.*Magnitude.*</RegularExpression>
+                        </AttributeValues>
+                    </InputAttribute>
+                </InputAttributes>
+                <DisplayAttributes>
+                    <SAR_InverseRemap>none</SAR_InverseRemap>
+                    <RGB_Band_Order>Use IREPBAND</RGB_Band_Order>
+                    <Default_Rotation>Shadows Down</Default_Rotation>
+                    <Interpolation>LaGrange</Interpolation>
+                    <DRA_Method>Min/Max</DRA_Method>
+                    <Auto_DRA>Off</Auto_DRA>
+                    <IDEX_DRA_Amod/>
+                    <IDEX_DRA_Bmod/>
+                    <DRA_Pmin>0.0</DRA_Pmin>
+                    <DRA_Pmax>1</DRA_Pmax>
+                    <MTFC_Family>0</MTFC_Family>
+                    <MTFC_Member>5</MTFC_Member>
+                    <TTC_Family>0</TTC_Family>
+                    <TTC_Member>32</TTC_Member>
+                </DisplayAttributes>
+            </Bin>
+        </EnhancementBins>
+    </Record>
+    <Record>
+        <Classification>U</Classification>
+        <RN>379</RN>
+        <CommonName>SAR SIDD CCD-Reference</CommonName>
+        <Comment>SAR SIDD Coherent Change Detection Reference Image Segment Record</Comment>
+        <OriginalEffectivity>Current NSG Product</OriginalEffectivity>
+        <EnhancementBins>
+            <numberOfBins>1</numberOfBins>
+            <Bin>
+                <BinNumber>1</BinNumber>
+                <InputAttributes>
+                    <NumberOfInputAttributes>4</NumberOfInputAttributes>
+                    <InputAttribute>
+                        <AttributeName>ICAT</AttributeName>
+                        <AttributeType>ValueList</AttributeType>
+                        <AttributeValues>
+                            <value>SAR     </value>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>IID1</AttributeName>
+                        <AttributeType>regEx</AttributeType>
+                        <AttributeValues>
+                            <RegularExpression>SIDD(\d{3}|\d{2}|\d{1})(\s*)((\d{3}|\d{2}|\d{1})(\s*)|(\s{3}))</RegularExpression>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>ProductCreationClass</AttributeName>
+                        <AttributeType>regEx</AttributeType>
+                        <AttributeValues>
+                            <RegularExpression>Coherent Change Detection</RegularExpression>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>ProductCreationType</AttributeName>
+                        <AttributeType>regEx</AttributeType>
+                        <AttributeValues>
+                            <RegularExpression>Registered Reference Image</RegularExpression>
+                        </AttributeValues>
+                    </InputAttribute>
+                </InputAttributes>
+                <DisplayAttributes>
+                    <SAR_InverseRemap>PEDF</SAR_InverseRemap>
+                    <RGB_Band_Order>Use IREPBAND</RGB_Band_Order>
+                    <Default_Rotation>Shadows Down</Default_Rotation>
+                    <Interpolation>LaGrange</Interpolation>
+                    <DRA_Method>Min/Max</DRA_Method>
+                    <Auto_DRA>On</Auto_DRA>
+                    <IDEX_DRA_Amod/>
+                    <IDEX_DRA_Bmod/>
+                    <DRA_Pmin>0.0</DRA_Pmin>
+                    <DRA_Pmax>0.9995</DRA_Pmax>
+                    <MTFC_Family>0</MTFC_Family>
+                    <MTFC_Member>5</MTFC_Member>
+                    <TTC_Family>0</TTC_Family>
+                    <TTC_Member>32</TTC_Member>
+                </DisplayAttributes>
+            </Bin>
+        </EnhancementBins>
+    </Record>
+    <Record>
+        <Classification>U</Classification>
+        <RN>380</RN>
+        <CommonName>SAR SIDD CCD-Match</CommonName>
+        <Comment>SAR SIDD Coherent Change Detection Match Image Segment Record</Comment>
+        <OriginalEffectivity>Current NSG Product</OriginalEffectivity>
+        <EnhancementBins>
+            <numberOfBins>1</numberOfBins>
+            <Bin>
+                <BinNumber>1</BinNumber>
+                <InputAttributes>
+                    <NumberOfInputAttributes>4</NumberOfInputAttributes>
+                    <InputAttribute>
+                        <AttributeName>ICAT</AttributeName>
+                        <AttributeType>ValueList</AttributeType>
+                        <AttributeValues>
+                            <value>SAR     </value>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>IID1</AttributeName>
+                        <AttributeType>regEx</AttributeType>
+                        <AttributeValues>
+                            <RegularExpression>SIDD(\d{3}|\d{2}|\d{1})(\s*)((\d{3}|\d{2}|\d{1})(\s*)|(\s{3}))</RegularExpression>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>ProductCreationClass</AttributeName>
+                        <AttributeType>regEx</AttributeType>
+                        <AttributeValues>
+                            <RegularExpression>Coherent Change Detection</RegularExpression>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>ProductCreationType</AttributeName>
+                        <AttributeType>regEx</AttributeType>
+                        <AttributeValues>
+                            <RegularExpression>Registered Match Image</RegularExpression>
+                        </AttributeValues>
+                    </InputAttribute>
+                </InputAttributes>
+                <DisplayAttributes>
+                    <SAR_InverseRemap>PEDF</SAR_InverseRemap>
+                    <RGB_Band_Order>Use IREPBAND</RGB_Band_Order>
+                    <Default_Rotation>Shadows Down</Default_Rotation>
+                    <Interpolation>LaGrange</Interpolation>
+                    <DRA_Method>Min/Max</DRA_Method>
+                    <Auto_DRA>On</Auto_DRA>
+                    <IDEX_DRA_Amod/>
+                    <IDEX_DRA_Bmod/>
+                    <DRA_Pmin>0.0</DRA_Pmin>
+                    <DRA_Pmax>0.9995</DRA_Pmax>
+                    <MTFC_Family>0</MTFC_Family>
+                    <MTFC_Member>5</MTFC_Member>
+                    <TTC_Family>0</TTC_Family>
+                    <TTC_Member>32</TTC_Member>
+                </DisplayAttributes>
+            </Bin>
+        </EnhancementBins>
+    </Record>
+    <Record>
+        <Classification>U</Classification>
+        <RN>381</RN>
+        <CommonName>SAR SIDD Dynamic Image</CommonName>
+        <Comment>SAR SIDD Dynamic Image Segment Record</Comment>
+        <OriginalEffectivity>Current NSG Product</OriginalEffectivity>
+        <EnhancementBins>
+            <numberOfBins>1</numberOfBins>
+            <Bin>
+                <BinNumber>1</BinNumber>
+                <InputAttributes>
+                    <NumberOfInputAttributes>4</NumberOfInputAttributes>
+                    <InputAttribute>
+                        <AttributeName>ICAT</AttributeName>
+                        <AttributeType>ValueList</AttributeType>
+                        <AttributeValues>
+                            <value>SAR     </value>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>IID1</AttributeName>
+                        <AttributeType>regEx</AttributeType>
+                        <AttributeValues>
+                            <RegularExpression>SIDD(\d{3}|\d{2}|\d{1})(\s*)((\d{3}|\d{2}|\d{1})(\s*)|(\s{3}))</RegularExpression>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>ProductCreationClass</AttributeName>
+                        <AttributeType>regEx</AttributeType>
+                        <AttributeValues>
+                            <RegularExpression>.*Dynamic Image*</RegularExpression>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>ProductCreationType</AttributeName>
+                        <AttributeType>regEx</AttributeType>
+                        <AttributeValues>
+                            <RegularExpression>(.*Fast Time.*|.*Slow Time.*)</RegularExpression>
+                        </AttributeValues>
+                    </InputAttribute>
+                </InputAttributes>
+                <DisplayAttributes>
+                    <SAR_InverseRemap>none</SAR_InverseRemap>
+                    <RGB_Band_Order>Use IREPBAND</RGB_Band_Order>
+                    <Default_Rotation>Shadows Down</Default_Rotation>
+                    <Interpolation>LaGrange</Interpolation>
+                    <DRA_Method>Min/Max</DRA_Method>
+                    <Auto_DRA>Off</Auto_DRA>
+                    <IDEX_DRA_Amod/>
+                    <IDEX_DRA_Bmod/>
+                    <DRA_Pmin>0.0</DRA_Pmin>
+                    <DRA_Pmax>1.0</DRA_Pmax>
+                    <MTFC_Family>0</MTFC_Family>
+                    <MTFC_Member>5</MTFC_Member>
+                    <TTC_Family>0</TTC_Family>
+                    <TTC_Member>32</TTC_Member>
+                </DisplayAttributes>
+            </Bin>
+        </EnhancementBins>
+    </Record>
+    <Record>
+        <Classification>U</Classification>
+        <RN>382</RN>
+        <CommonName>SAR SIDD CSI Image</CommonName>
+        <Comment>SAR SIDD CSI Image Segment Record</Comment>
+        <OriginalEffectivity>Current NSG Product</OriginalEffectivity>
+        <EnhancementBins>
+            <numberOfBins>1</numberOfBins>
+            <Bin>
+                <BinNumber>1</BinNumber>
+                <InputAttributes>
+                    <NumberOfInputAttributes>4</NumberOfInputAttributes>
+                    <InputAttribute>
+                        <AttributeName>ICAT</AttributeName>
+                        <AttributeType>ValueList</AttributeType>
+                        <AttributeValues>
+                            <value>SAR     </value>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>IID1</AttributeName>
+                        <AttributeType>regEx</AttributeType>
+                        <AttributeValues>
+                            <RegularExpression>SIDD(\d{3}|\d{2}|\d{1})(\s*)((\d{3}|\d{2}|\d{1})(\s*)|(\s{3}))</RegularExpression>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>ProductCreationClass</AttributeName>
+                        <AttributeType>regEx</AttributeType>
+                        <AttributeValues>
+                            <RegularExpression>(Colorized Subaperture Image|.*CSI.*)</RegularExpression>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>ProductCreationType</AttributeName>
+                        <AttributeType>regEx</AttributeType>
+                        <AttributeValues>
+                            <RegularExpression>CSI</RegularExpression>
+                        </AttributeValues>
+                    </InputAttribute>
+                </InputAttributes>
+                <DisplayAttributes>
+                    <SAR_InverseRemap>none</SAR_InverseRemap>
+                    <RGB_Band_Order>Use IREPBAND</RGB_Band_Order>
+                    <Default_Rotation>Shadows Down</Default_Rotation>
+                    <Interpolation>LaGrange</Interpolation>
+                    <DRA_Method>Min/Max</DRA_Method>
+                    <Auto_DRA>Off</Auto_DRA>
+                    <IDEX_DRA_Amod/>
+                    <IDEX_DRA_Bmod/>
+                    <DRA_Pmin>0.0</DRA_Pmin>
+                    <DRA_Pmax>1.0</DRA_Pmax>
+                    <MTFC_Family>0</MTFC_Family>
+                    <MTFC_Member>5</MTFC_Member>
+                    <TTC_Family>0</TTC_Family>
+                    <TTC_Member>32</TTC_Member>
+                </DisplayAttributes>
+            </Bin>
+        </EnhancementBins>
+    </Record>
+    <Record>
+        <Classification>U</Classification>
+        <RN>384</RN>
+        <CommonName>SAR SIDD Generic</CommonName>
+        <Comment>Generic SAR SIDD Product Record</Comment>
+        <OriginalEffectivity>Current NSG Product</OriginalEffectivity>
+        <EnhancementBins>
+            <numberOfBins>1</numberOfBins>
+            <Bin>
+                <BinNumber>1</BinNumber>
+                <InputAttributes>
+                    <NumberOfInputAttributes>2</NumberOfInputAttributes>
+                    <InputAttribute>
+                        <AttributeName>ICAT</AttributeName>
+                        <AttributeType>ValueList</AttributeType>
+                        <AttributeValues>
+                            <value>SAR     </value>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>IID1</AttributeName>
+                        <AttributeType>regEx</AttributeType>
+                        <AttributeValues>
+                            <RegularExpression>SIDD(\d{3}|\d{2}|\d{1})(\s*)((\d{3}|\d{2}|\d{1})(\s*)|(\s{3}))</RegularExpression>
+                        </AttributeValues>
+                    </InputAttribute>
+                </InputAttributes>
+                <DisplayAttributes>
+                    <SAR_InverseRemap>PEDF</SAR_InverseRemap>
+                    <RGB_Band_Order>Use IREPBAND</RGB_Band_Order>
+                    <Default_Rotation>Shadows Down</Default_Rotation>
+                    <Interpolation>LaGrange</Interpolation>
+                    <DRA_Method>Min/Max</DRA_Method>
+                    <Auto_DRA>On</Auto_DRA>
+                    <IDEX_DRA_Amod/>
+                    <IDEX_DRA_Bmod/>
+                    <DRA_Pmin>0.0</DRA_Pmin>
+                    <DRA_Pmax>0.9995</DRA_Pmax>
+                    <MTFC_Family>0</MTFC_Family>
+                    <MTFC_Member>5</MTFC_Member>
+                    <TTC_Family>0</TTC_Family>
+                    <TTC_Member>32</TTC_Member>
+                </DisplayAttributes>
+            </Bin>
+        </EnhancementBins>
+    </Record>
+    <Record>
+        <Classification>U</Classification>
+        <RN>389</RN>
+        <CommonName>CCG</CommonName>
+        <Comment>Cloud Cover Grid - No Display Image Segment Record</Comment>
+        <OriginalEffectivity>Current NSG Product</OriginalEffectivity>
+        <EnhancementBins>
+            <numberOfBins>1</numberOfBins>
+            <Bin>
+                <BinNumber>1</BinNumber>
+                <InputAttributes>
+                    <NumberOfInputAttributes>1</NumberOfInputAttributes>
+                    <InputAttribute>
+                        <AttributeName>IID1</AttributeName>
+                        <AttributeType>regEx</AttributeType>
+                        <AttributeValues>
+                            <RegularExpression>(CC(\s{8}))|(CCG[-:](\d{1}|\d{2}|\d{3})(\s{3}|\s{4}|\s{5}))</RegularExpression>
+                        </AttributeValues>
+                    </InputAttribute>
+                </InputAttributes>
+                <DisplayAttributes>
+                    <SAR_InverseRemap/>
+                    <RGB_Band_Order>1,1,1</RGB_Band_Order>
+                    <Default_Rotation>No Rotation</Default_Rotation>
+                    <Interpolation>Nearest Neighbor</Interpolation>
+                    <DRA_Method>Min/Max</DRA_Method>
+                    <Auto_DRA>Off</Auto_DRA>
+                    <IDEX_DRA_Amod/>
+                    <IDEX_DRA_Bmod/>
+                    <DRA_Pmin>0.0</DRA_Pmin>
+                    <DRA_Pmax>1.0</DRA_Pmax>
+                    <MTFC_Family>0</MTFC_Family>
+                    <MTFC_Member>5</MTFC_Member>
+                    <TTC_Family>0</TTC_Family>
+                    <TTC_Member>32</TTC_Member>
+                </DisplayAttributes>
+            </Bin>
+        </EnhancementBins>
+    </Record>
+    <Record>
+        <Classification>U</Classification>
+        <RN>390</RN>
+        <CommonName>PIXQLA</CommonName>
+        <Comment>Pixel Quality - No Display Image Segment Record</Comment>
+        <OriginalEffectivity>Current NSG Product</OriginalEffectivity>
+        <EnhancementBins>
+            <numberOfBins>1</numberOfBins>
+            <Bin>
+                <BinNumber>1</BinNumber>
+                <InputAttributes>
+                    <NumberOfInputAttributes>1</NumberOfInputAttributes>
+                    <InputAttribute>
+                        <AttributeName>IID1</AttributeName>
+                        <AttributeType>regEx</AttributeType>
+                        <AttributeValues>
+                            <RegularExpression>(PIXQLA[-|:](\d{3}))|(PQS[-:](\d{3})(\d{3}|\s{3}))</RegularExpression>
+                        </AttributeValues>
+                    </InputAttribute>
+                </InputAttributes>
+                <DisplayAttributes>
+                    <SAR_InverseRemap/>
+                    <RGB_Band_Order>1,1,1</RGB_Band_Order>
+                    <Default_Rotation>No Rotation</Default_Rotation>
+                    <Interpolation>Nearest Neighbor</Interpolation>
+                    <DRA_Method>Min/Max</DRA_Method>
+                    <Auto_DRA>Off</Auto_DRA>
+                    <IDEX_DRA_Amod/>
+                    <IDEX_DRA_Bmod/>
+                    <DRA_Pmin>0.0</DRA_Pmin>
+                    <DRA_Pmax>1.0</DRA_Pmax>
+                    <MTFC_Family>0</MTFC_Family>
+                    <MTFC_Member>5</MTFC_Member>
+                    <TTC_Family>0</TTC_Family>
+                    <TTC_Member>32</TTC_Member>
+                </DisplayAttributes>
+            </Bin>
+        </EnhancementBins>
+    </Record>
+    <Record>
+        <Classification>U</Classification>
+        <RN>391</RN>
+        <CommonName>DED</CommonName>
+        <Comment>Digital Elevation Data - No Display Image Segment Record</Comment>
+        <OriginalEffectivity>Current NSG Product</OriginalEffectivity>
+        <EnhancementBins>
+            <numberOfBins>1</numberOfBins>
+            <Bin>
+                <BinNumber>1</BinNumber>
+                <InputAttributes>
+                    <NumberOfInputAttributes>1</NumberOfInputAttributes>
+                    <InputAttribute>
+                        <AttributeName>IID1</AttributeName>
+                        <AttributeType>regEx</AttributeType>
+                        <AttributeValues>
+                            <RegularExpression>DED[-|:](\d{3}|\d{2}|\d{1})(\s{3}|\s{4}|\s{5})</RegularExpression>
+                        </AttributeValues>
+                    </InputAttribute>
+                </InputAttributes>
+                <DisplayAttributes>
+                    <SAR_InverseRemap/>
+                    <RGB_Band_Order>1,1,1</RGB_Band_Order>
+                    <Default_Rotation>No Rotation</Default_Rotation>
+                    <Interpolation>Nearest Neighbor</Interpolation>
+                    <DRA_Method>Min/Max</DRA_Method>
+                    <Auto_DRA>Off</Auto_DRA>
+                    <IDEX_DRA_Amod/>
+                    <IDEX_DRA_Bmod/>
+                    <DRA_Pmin>0.0</DRA_Pmin>
+                    <DRA_Pmax>1.0</DRA_Pmax>
+                    <MTFC_Family>0</MTFC_Family>
+                    <MTFC_Member>5</MTFC_Member>
+                    <TTC_Family>0</TTC_Family>
+                    <TTC_Member>32</TTC_Member>
+                </DisplayAttributes>
+            </Bin>
+        </EnhancementBins>
+    </Record>
+    <Record>
+        <Classification>U</Classification>
+        <RN>474</RN>
+        <CommonName>Vegetation Density (VDM)</CommonName>
+        <Comment>Vegetation Density Product</Comment>
+        <OriginalEffectivity>Current NSG Product</OriginalEffectivity>
+        <EnhancementBins>
+            <numberOfBins>1</numberOfBins>
+            <Bin>
+                <BinNumber>1</BinNumber>
+                <InputAttributes>
+                    <NumberOfInputAttributes>2</NumberOfInputAttributes>
+                    <InputAttribute>
+                        <AttributeName>ICAT</AttributeName>
+                        <AttributeType>ValueList</AttributeType>
+                        <AttributeValues>
+                            <value>VDM     </value>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>IID1</AttributeName>
+                        <AttributeType>regEx</AttributeType>
+                        <AttributeValues>
+                            <RegularExpression>VDM[-|:](\d{3}|\d{2}|\d{1})(\s{3}|\s{4}|\s{5})</RegularExpression>
+                        </AttributeValues>
+                    </InputAttribute>
+                </InputAttributes>
+                <DisplayAttributes>
+                    <SAR_InverseRemap/>
+                    <RGB_Band_Order>1,1,1</RGB_Band_Order>
+                    <Default_Rotation>Up is Up</Default_Rotation>
+                    <Interpolation>Nearest Neighbor</Interpolation>
+                    <DRA_Method>Min/Max</DRA_Method>
+                    <Auto_DRA>Off</Auto_DRA>
+                    <IDEX_DRA_Amod/>
+                    <IDEX_DRA_Bmod/>
+                    <DRA_Pmin>0.0</DRA_Pmin>
+                    <DRA_Pmax>1.0</DRA_Pmax>
+                    <MTFC_Family>0</MTFC_Family>
+                    <MTFC_Member>5</MTFC_Member>
+                    <TTC_Family>0</TTC_Family>
+                    <TTC_Member>32</TTC_Member>
+                </DisplayAttributes>
+            </Bin>
+        </EnhancementBins>
+    </Record>
+    <Record>
+        <Classification>U</Classification>
+        <RN>478</RN>
+        <CommonName>Pixel Metrics</CommonName>
+        <Comment>Pixel Metrics - No display Image Segment Record</Comment>
+        <OriginalEffectivity>Current NSG Product</OriginalEffectivity>
+        <EnhancementBins>
+            <numberOfBins>1</numberOfBins>
+            <Bin>
+                <BinNumber>1</BinNumber>
+                <InputAttributes>
+                    <NumberOfInputAttributes>1</NumberOfInputAttributes>
+                    <InputAttribute>
+                        <AttributeName>IID1</AttributeName>
+                        <AttributeType>regEx</AttributeType>
+                        <AttributeValues>
+                            <RegularExpression>PMS[-|:](\d{3}|\d{2}|\d{1})(\s*)</RegularExpression>
+                        </AttributeValues>
+                    </InputAttribute>
+                </InputAttributes>
+                <DisplayAttributes>
+                    <SAR_InverseRemap/>
+                    <RGB_Band_Order>1,1,1</RGB_Band_Order>
+                    <Default_Rotation>No Rotation</Default_Rotation>
+                    <Interpolation>Nearest Neighbor</Interpolation>
+                    <DRA_Method>Min/Max</DRA_Method>
+                    <Auto_DRA>Off</Auto_DRA>
+                    <IDEX_DRA_Amod/>
+                    <IDEX_DRA_Bmod/>
+                    <DRA_Pmin>0.0</DRA_Pmin>
+                    <DRA_Pmax>1.0</DRA_Pmax>
+                    <MTFC_Family>0</MTFC_Family>
+                    <MTFC_Member>5</MTFC_Member>
+                    <TTC_Family>0</TTC_Family>
+                    <TTC_Member>32</TTC_Member>
+                </DisplayAttributes>
+            </Bin>
+        </EnhancementBins>
+    </Record>
+    <Record>
+        <Classification>U</Classification>
+        <RN>479</RN>
+        <CommonName>SAR SIDD 2CMV-Overlay</CommonName>
+        <Comment>SAR SIDD Two-Color Multiview Overlay Image</Comment>
+        <OriginalEffectivity>Current NSG Product</OriginalEffectivity>
+        <EnhancementBins>
+            <numberOfBins>1</numberOfBins>
+            <Bin>
+                <BinNumber>1</BinNumber>
+                <InputAttributes>
+                    <NumberOfInputAttributes>4</NumberOfInputAttributes>
+                    <InputAttribute>
+                        <AttributeName>ICAT</AttributeName>
+                        <AttributeType>ValueList</AttributeType>
+                        <AttributeValues>
+                            <value>SAR     </value>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>IID1</AttributeName>
+                        <AttributeType>regEx</AttributeType>
+                        <AttributeValues>
+                            <RegularExpression>SIDD(\d{3}|\d{2}|\d{1})(\s*)((\d{3}|\d{2}|\d{1})(\s*)|(\s{3}))</RegularExpression>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>ProductCreationClass</AttributeName>
+                        <AttributeType>regEx</AttributeType>
+                        <AttributeValues>
+                            <RegularExpression>2 Color Multiview</RegularExpression>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>ProductCreationType</AttributeName>
+                        <AttributeType>regEx</AttributeType>
+                        <AttributeValues>
+                            <RegularExpression>Overlay Image</RegularExpression>
+                        </AttributeValues>
+                    </InputAttribute>
+                </InputAttributes>
+                <DisplayAttributes>
+                    <SAR_InverseRemap>none</SAR_InverseRemap>
+                    <RGB_Band_Order>Use IREPBAND</RGB_Band_Order>
+                    <Default_Rotation>Shadows Down</Default_Rotation>
+                    <Interpolation>LaGrange</Interpolation>
+                    <DRA_Method>Min/Max</DRA_Method>
+                    <Auto_DRA>Off</Auto_DRA>
+                    <IDEX_DRA_Amod/>
+                    <IDEX_DRA_Bmod/>
+                    <DRA_Pmin>0.0</DRA_Pmin>
+                    <DRA_Pmax>1</DRA_Pmax>
+                    <MTFC_Family>0</MTFC_Family>
+                    <MTFC_Member>5</MTFC_Member>
+                    <TTC_Family>0</TTC_Family>
+                    <TTC_Member>32</TTC_Member>
+                </DisplayAttributes>
+            </Bin>
+        </EnhancementBins>
+    </Record>
+    <Record>
+        <Classification>U</Classification>
+        <RN>480</RN>
+        <CommonName>SAR SIDD 2CMV-Smooth</CommonName>
+        <Comment>SAR SIDD Two-Color Multiview Smooth Image</Comment>
+        <OriginalEffectivity>Current NSG Product</OriginalEffectivity>
+        <EnhancementBins>
+            <numberOfBins>1</numberOfBins>
+            <Bin>
+                <BinNumber>1</BinNumber>
+                <InputAttributes>
+                    <NumberOfInputAttributes>4</NumberOfInputAttributes>
+                    <InputAttribute>
+                        <AttributeName>ICAT</AttributeName>
+                        <AttributeType>ValueList</AttributeType>
+                        <AttributeValues>
+                            <value>SAR     </value>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>IID1</AttributeName>
+                        <AttributeType>regEx</AttributeType>
+                        <AttributeValues>
+                            <RegularExpression>SIDD(\d{3}|\d{2}|\d{1})(\s*)((\d{3}|\d{2}|\d{1})(\s*)|(\s{3}))</RegularExpression>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>ProductCreationClass</AttributeName>
+                        <AttributeType>regEx</AttributeType>
+                        <AttributeValues>
+                            <RegularExpression>2 Color Multiview</RegularExpression>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>ProductCreationType</AttributeName>
+                        <AttributeType>regEx</AttributeType>
+                        <AttributeValues>
+                            <RegularExpression>Smooth Image</RegularExpression>
+                        </AttributeValues>
+                    </InputAttribute>
+                </InputAttributes>
+                <DisplayAttributes>
+                    <SAR_InverseRemap>none</SAR_InverseRemap>
+                    <RGB_Band_Order>Use IREPBAND</RGB_Band_Order>
+                    <Default_Rotation>Shadows Down</Default_Rotation>
+                    <Interpolation>LaGrange</Interpolation>
+                    <DRA_Method>Min/Max</DRA_Method>
+                    <Auto_DRA>Off</Auto_DRA>
+                    <IDEX_DRA_Amod/>
+                    <IDEX_DRA_Bmod/>
+                    <DRA_Pmin>0.0</DRA_Pmin>
+                    <DRA_Pmax>1</DRA_Pmax>
+                    <MTFC_Family>0</MTFC_Family>
+                    <MTFC_Member>5</MTFC_Member>
+                    <TTC_Family>0</TTC_Family>
+                    <TTC_Member>32</TTC_Member>
+                </DisplayAttributes>
+            </Bin>
+        </EnhancementBins>
+    </Record>
+    <Record>
+        <Classification>U</Classification>
+        <RN>488</RN>
+        <CommonName>SAR SIDD LEGEND</CommonName>
+        <Comment>SAR SIDD Legend Image Segment</Comment>
+        <OriginalEffectivity>Current NSG Product</OriginalEffectivity>
+        <EnhancementBins>
+            <numberOfBins>1</numberOfBins>
+            <Bin>
+                <BinNumber>1</BinNumber>
+                <InputAttributes>
+                    <NumberOfInputAttributes>2</NumberOfInputAttributes>
+                    <InputAttribute>
+                        <AttributeName>ICAT</AttributeName>
+                        <AttributeType>ValueList</AttributeType>
+                        <AttributeValues>
+                            <value>LEG     </value>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>IID1</AttributeName>
+                        <AttributeType>regEx</AttributeType>
+                        <AttributeValues>
+                            <RegularExpression>SIDD(\d{3}|\d{2}|\d{1})(\s*)((\d{3}|\d{2}|\d{1})(\s*)|(\s{3}))</RegularExpression>
+                        </AttributeValues>
+                    </InputAttribute>
+                </InputAttributes>
+                <DisplayAttributes>
+                    <SAR_InverseRemap/>
+                    <RGB_Band_Order>Use IREPBAND</RGB_Band_Order>
+                    <Default_Rotation>No Rotation</Default_Rotation>
+                    <Interpolation>LaGrange</Interpolation>
+                    <DRA_Method>Min/Max</DRA_Method>
+                    <Auto_DRA>Off</Auto_DRA>
+                    <IDEX_DRA_Amod/>
+                    <IDEX_DRA_Bmod/>
+                    <DRA_Pmin>0.0</DRA_Pmin>
+                    <DRA_Pmax>1</DRA_Pmax>
+                    <MTFC_Family>0</MTFC_Family>
+                    <MTFC_Member>5</MTFC_Member>
+                    <TTC_Family>0</TTC_Family>
+                    <TTC_Member>32</TTC_Member>
+                </DisplayAttributes>
+            </Bin>
+        </EnhancementBins>
+    </Record>
+    <Record>
+        <Classification>U</Classification>
+        <RN>516</RN>
+        <CommonName>SAR SIDD CCD-Phase</CommonName>
+        <Comment>SAR SIDD Coherent Change Detection Phase Segment Record</Comment>
+        <OriginalEffectivity>Current NSG Product</OriginalEffectivity>
+        <EnhancementBins>
+            <numberOfBins>1</numberOfBins>
+            <Bin>
+                <BinNumber>1</BinNumber>
+                <InputAttributes>
+                    <NumberOfInputAttributes>4</NumberOfInputAttributes>
+                    <InputAttribute>
+                        <AttributeName>ICAT</AttributeName>
+                        <AttributeType>ValueList</AttributeType>
+                        <AttributeValues>
+                            <value>SAR     </value>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>IID1</AttributeName>
+                        <AttributeType>regEx</AttributeType>
+                        <AttributeValues>
+                            <RegularExpression>SIDD(\d{3}|\d{2}|\d{1})(\s*)((\d{3}|\d{2}|\d{1})(\s*)|(\s{3}))</RegularExpression>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>ProductCreationClass</AttributeName>
+                        <AttributeType>regEx</AttributeType>
+                        <AttributeValues>
+                            <RegularExpression>Coherent Change Detection</RegularExpression>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>ProductCreationType</AttributeName>
+                        <AttributeType>regEx</AttributeType>
+                        <AttributeValues>
+                            <RegularExpression>.*Phase.*</RegularExpression>
+                        </AttributeValues>
+                    </InputAttribute>
+                </InputAttributes>
+                <DisplayAttributes>
+                    <SAR_InverseRemap>none</SAR_InverseRemap>
+                    <RGB_Band_Order>Use IREPBAND</RGB_Band_Order>
+                    <Default_Rotation>Shadows Down</Default_Rotation>
+                    <Interpolation>LaGrange</Interpolation>
+                    <DRA_Method>Min/Max</DRA_Method>
+                    <Auto_DRA>Off</Auto_DRA>
+                    <IDEX_DRA_Amod/>
+                    <IDEX_DRA_Bmod/>
+                    <DRA_Pmin>0.0</DRA_Pmin>
+                    <DRA_Pmax>1</DRA_Pmax>
+                    <MTFC_Family>0</MTFC_Family>
+                    <MTFC_Member>5</MTFC_Member>
+                    <TTC_Family>0</TTC_Family>
+                    <TTC_Member>32</TTC_Member>
+                </DisplayAttributes>
+            </Bin>
+        </EnhancementBins>
+    </Record>
+    <Record>
+        <Classification>U</Classification>
+        <RN>517</RN>
+        <CommonName>SAR SIDD SCCD-Coherent Change Substraction</CommonName>
+        <Comment>SAR SIDD Super Coherent Change Substraction Segment Record</Comment>
+        <OriginalEffectivity>Current NSG Product</OriginalEffectivity>
+        <EnhancementBins>
+            <numberOfBins>1</numberOfBins>
+            <Bin>
+                <BinNumber>1</BinNumber>
+                <InputAttributes>
+                    <NumberOfInputAttributes>4</NumberOfInputAttributes>
+                    <InputAttribute>
+                        <AttributeName>ICAT</AttributeName>
+                        <AttributeType>ValueList</AttributeType>
+                        <AttributeValues>
+                            <value>SAR     </value>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>IID1</AttributeName>
+                        <AttributeType>regEx</AttributeType>
+                        <AttributeValues>
+                            <RegularExpression>SIDD(\d{3}|\d{2}|\d{1})(\s*)((\d{3}|\d{2}|\d{1})(\s*)|(\s{3}))</RegularExpression>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>ProductCreationClass</AttributeName>
+                        <AttributeType>regEx</AttributeType>
+                        <AttributeValues>
+                            <RegularExpression>.*Super Coherent Change Detection.*</RegularExpression>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>ProductCreationType</AttributeName>
+                        <AttributeType>regEx</AttributeType>
+                        <AttributeValues>
+                            <RegularExpression>.*Coherent Change Subtraction.*</RegularExpression>
+                        </AttributeValues>
+                    </InputAttribute>
+                </InputAttributes>
+                <DisplayAttributes>
+                    <SAR_InverseRemap>none</SAR_InverseRemap>
+                    <RGB_Band_Order>Use IREPBAND</RGB_Band_Order>
+                    <Default_Rotation>Shadows Down</Default_Rotation>
+                    <Interpolation>LaGrange</Interpolation>
+                    <DRA_Method>Min/Max</DRA_Method>
+                    <Auto_DRA>Off</Auto_DRA>
+                    <IDEX_DRA_Amod/>
+                    <IDEX_DRA_Bmod/>
+                    <DRA_Pmin>0.0</DRA_Pmin>
+                    <DRA_Pmax>1</DRA_Pmax>
+                    <MTFC_Family>0</MTFC_Family>
+                    <MTFC_Member>5</MTFC_Member>
+                    <TTC_Family>0</TTC_Family>
+                    <TTC_Member>32</TTC_Member>
+                </DisplayAttributes>
+            </Bin>
+        </EnhancementBins>
+    </Record>
+    <Record>
+        <Classification>U</Classification>
+        <RN>518</RN>
+        <CommonName>SAR SIDD SCCD-Color Coded CCD</CommonName>
+        <Comment>SAR SIDD Super Color Coded Coherent Change Detection Segment Record</Comment>
+        <OriginalEffectivity>Current NSG Product</OriginalEffectivity>
+        <EnhancementBins>
+            <numberOfBins>1</numberOfBins>
+            <Bin>
+                <BinNumber>1</BinNumber>
+                <InputAttributes>
+                    <NumberOfInputAttributes>4</NumberOfInputAttributes>
+                    <InputAttribute>
+                        <AttributeName>ICAT</AttributeName>
+                        <AttributeType>ValueList</AttributeType>
+                        <AttributeValues>
+                            <value>SAR     </value>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>IID1</AttributeName>
+                        <AttributeType>regEx</AttributeType>
+                        <AttributeValues>
+                            <RegularExpression>SIDD(\d{3}|\d{2}|\d{1})(\s*)((\d{3}|\d{2}|\d{1})(\s*)|(\s{3}))</RegularExpression>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>ProductCreationClass</AttributeName>
+                        <AttributeType>regEx</AttributeType>
+                        <AttributeValues>
+                            <RegularExpression>.*Super Coherent Change Detection.*</RegularExpression>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>ProductCreationType</AttributeName>
+                        <AttributeType>regEx</AttributeType>
+                        <AttributeValues>
+                            <RegularExpression>.*Color Coded CCD.*</RegularExpression>
+                        </AttributeValues>
+                    </InputAttribute>
+                </InputAttributes>
+                <DisplayAttributes>
+                    <SAR_InverseRemap>none</SAR_InverseRemap>
+                    <RGB_Band_Order>Use IREPBAND</RGB_Band_Order>
+                    <Default_Rotation>Shadows Down</Default_Rotation>
+                    <Interpolation>LaGrange</Interpolation>
+                    <DRA_Method>Min/Max</DRA_Method>
+                    <Auto_DRA>Off</Auto_DRA>
+                    <IDEX_DRA_Amod/>
+                    <IDEX_DRA_Bmod/>
+                    <DRA_Pmin>0.0</DRA_Pmin>
+                    <DRA_Pmax>1</DRA_Pmax>
+                    <MTFC_Family>0</MTFC_Family>
+                    <MTFC_Member>5</MTFC_Member>
+                    <TTC_Family>0</TTC_Family>
+                    <TTC_Member>32</TTC_Member>
+                </DisplayAttributes>
+            </Bin>
+        </EnhancementBins>
+    </Record>
+    <Record>
+        <Classification>U</Classification>
+        <RN>519</RN>
+        <CommonName>SAR SIDD SCCD-ML Magnitude</CommonName>
+        <Comment>SAR SIDD Super Coherent Change Detection ML Magnitude Segment Record</Comment>
+        <OriginalEffectivity>Current NSG Product</OriginalEffectivity>
+        <EnhancementBins>
+            <numberOfBins>1</numberOfBins>
+            <Bin>
+                <BinNumber>1</BinNumber>
+                <InputAttributes>
+                    <NumberOfInputAttributes>4</NumberOfInputAttributes>
+                    <InputAttribute>
+                        <AttributeName>ICAT</AttributeName>
+                        <AttributeType>ValueList</AttributeType>
+                        <AttributeValues>
+                            <value>SAR     </value>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>IID1</AttributeName>
+                        <AttributeType>regEx</AttributeType>
+                        <AttributeValues>
+                            <RegularExpression>SIDD(\d{3}|\d{2}|\d{1})(\s*)((\d{3}|\d{2}|\d{1})(\s*)|(\s{3}))</RegularExpression>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>ProductCreationClass</AttributeName>
+                        <AttributeType>regEx</AttributeType>
+                        <AttributeValues>
+                            <RegularExpression>.*Super Coherent Change Detection.*</RegularExpression>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>ProductCreationType</AttributeName>
+                        <AttributeType>regEx</AttributeType>
+                        <AttributeValues>
+                            <RegularExpression>.*ML Magnitude.*</RegularExpression>
+                        </AttributeValues>
+                    </InputAttribute>
+                </InputAttributes>
+                <DisplayAttributes>
+                    <SAR_InverseRemap>none</SAR_InverseRemap>
+                    <RGB_Band_Order>Use IREPBAND</RGB_Band_Order>
+                    <Default_Rotation>Shadows Down</Default_Rotation>
+                    <Interpolation>LaGrange</Interpolation>
+                    <DRA_Method>Min/Max</DRA_Method>
+                    <Auto_DRA>Off</Auto_DRA>
+                    <IDEX_DRA_Amod/>
+                    <IDEX_DRA_Bmod/>
+                    <DRA_Pmin>0.0</DRA_Pmin>
+                    <DRA_Pmax>1</DRA_Pmax>
+                    <MTFC_Family>0</MTFC_Family>
+                    <MTFC_Member>5</MTFC_Member>
+                    <TTC_Family>0</TTC_Family>
+                    <TTC_Member>32</TTC_Member>
+                </DisplayAttributes>
+            </Bin>
+        </EnhancementBins>
+    </Record>
+    <Record>
+        <Classification>U</Classification>
+        <RN>520</RN>
+        <CommonName>SAR SIDD SCCD-PSC Magnitude</CommonName>
+        <Comment>SAR SIDD Super Coherent Change Detection PSC Magnitude Segment Record</Comment>
+        <OriginalEffectivity>Current NSG Product</OriginalEffectivity>
+        <EnhancementBins>
+            <numberOfBins>1</numberOfBins>
+            <Bin>
+                <BinNumber>1</BinNumber>
+                <InputAttributes>
+                    <NumberOfInputAttributes>4</NumberOfInputAttributes>
+                    <InputAttribute>
+                        <AttributeName>ICAT</AttributeName>
+                        <AttributeType>ValueList</AttributeType>
+                        <AttributeValues>
+                            <value>SAR     </value>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>IID1</AttributeName>
+                        <AttributeType>regEx</AttributeType>
+                        <AttributeValues>
+                            <RegularExpression>SIDD(\d{3}|\d{2}|\d{1})(\s*)((\d{3}|\d{2}|\d{1})(\s*)|(\s{3}))</RegularExpression>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>ProductCreationClass</AttributeName>
+                        <AttributeType>regEx</AttributeType>
+                        <AttributeValues>
+                            <RegularExpression>.*Super Coherent Change Detection.*</RegularExpression>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>ProductCreationType</AttributeName>
+                        <AttributeType>regEx</AttributeType>
+                        <AttributeValues>
+                            <RegularExpression>.*PSC Magnitude.*</RegularExpression>
+                        </AttributeValues>
+                    </InputAttribute>
+                </InputAttributes>
+                <DisplayAttributes>
+                    <SAR_InverseRemap>none</SAR_InverseRemap>
+                    <RGB_Band_Order>Use IREPBAND</RGB_Band_Order>
+                    <Default_Rotation>Shadows Down</Default_Rotation>
+                    <Interpolation>LaGrange</Interpolation>
+                    <DRA_Method>Min/Max</DRA_Method>
+                    <Auto_DRA>Off</Auto_DRA>
+                    <IDEX_DRA_Amod/>
+                    <IDEX_DRA_Bmod/>
+                    <DRA_Pmin>0.0</DRA_Pmin>
+                    <DRA_Pmax>1</DRA_Pmax>
+                    <MTFC_Family>0</MTFC_Family>
+                    <MTFC_Member>5</MTFC_Member>
+                    <TTC_Family>0</TTC_Family>
+                    <TTC_Member>32</TTC_Member>
+                </DisplayAttributes>
+            </Bin>
+        </EnhancementBins>
+    </Record>
+    <Record>
+        <Classification>U</Classification>
+        <RN>521</RN>
+        <CommonName>SAR SIDD SCCD-Polarization Enhanced Magnitude</CommonName>
+        <Comment>SAR SIDD Super Coherent Change Detection Polarization Enhanced Magnitude Segment Record</Comment>
+        <OriginalEffectivity>Current NSG Product</OriginalEffectivity>
+        <EnhancementBins>
+            <numberOfBins>1</numberOfBins>
+            <Bin>
+                <BinNumber>1</BinNumber>
+                <InputAttributes>
+                    <NumberOfInputAttributes>4</NumberOfInputAttributes>
+                    <InputAttribute>
+                        <AttributeName>ICAT</AttributeName>
+                        <AttributeType>ValueList</AttributeType>
+                        <AttributeValues>
+                            <value>SAR     </value>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>IID1</AttributeName>
+                        <AttributeType>regEx</AttributeType>
+                        <AttributeValues>
+                            <RegularExpression>SIDD(\d{3}|\d{2}|\d{1})(\s*)((\d{3}|\d{2}|\d{1})(\s*)|(\s{3}))</RegularExpression>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>ProductCreationClass</AttributeName>
+                        <AttributeType>regEx</AttributeType>
+                        <AttributeValues>
+                            <RegularExpression>.*Super Coherent Change Detection.*</RegularExpression>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>ProductCreationType</AttributeName>
+                        <AttributeType>regEx</AttributeType>
+                        <AttributeValues>
+                            <RegularExpression>.*Polarization Enhanced Magnitude.*</RegularExpression>
+                        </AttributeValues>
+                    </InputAttribute>
+                </InputAttributes>
+                <DisplayAttributes>
+                    <SAR_InverseRemap>none</SAR_InverseRemap>
+                    <RGB_Band_Order>Use IREPBAND</RGB_Band_Order>
+                    <Default_Rotation>Shadows Down</Default_Rotation>
+                    <Interpolation>LaGrange</Interpolation>
+                    <DRA_Method>Min/Max</DRA_Method>
+                    <Auto_DRA>Off</Auto_DRA>
+                    <IDEX_DRA_Amod/>
+                    <IDEX_DRA_Bmod/>
+                    <DRA_Pmin>0.0</DRA_Pmin>
+                    <DRA_Pmax>1</DRA_Pmax>
+                    <MTFC_Family>0</MTFC_Family>
+                    <MTFC_Member>5</MTFC_Member>
+                    <TTC_Family>0</TTC_Family>
+                    <TTC_Member>32</TTC_Member>
+                </DisplayAttributes>
+            </Bin>
+        </EnhancementBins>
+    </Record>
+    <Record>
+        <Classification>U</Classification>
+        <RN>4998</RN>
+        <CommonName>DEFAULT SAR NITF ENHANCEMENT</CommonName>
+        <Comment>No Enhancement</Comment>
+        <OriginalEffectivity>Current NSG Product</OriginalEffectivity>
+        <EnhancementBins>
+            <numberOfBins>1</numberOfBins>
+            <Bin>
+                <BinNumber>1</BinNumber>
+                <InputAttributes>
+                    <NumberOfInputAttributes>2</NumberOfInputAttributes>
+                    <InputAttribute>
+                        <AttributeName>ISORCE</AttributeName>
+                        <AttributeType>regEx</AttributeType>
+                        <AttributeValues>
+                            <RegularExpression>((SICD: capella-)\d+|(capella-)\d+) *</RegularExpression>
+                        </AttributeValues>
+                    </InputAttribute>
+                    <InputAttribute>
+                        <AttributeName>ICAT</AttributeName>
+                        <AttributeType>valueList</AttributeType>
+                        <AttributeValues>
+                            <value>SAR     </value>
+                            <value>WBID    </value>
+                        </AttributeValues>
+                    </InputAttribute>
+                </InputAttributes>
+                <DisplayAttributes>
+                    <SAR_InverseRemap/>
+                    <RGB_Band_Order>Use IREPBAND</RGB_Band_Order>
+                    <Default_Rotation>Shadows Down</Default_Rotation>
+                    <Interpolation>LaGrange</Interpolation>
+                    <DRA_Method>Min/Max</DRA_Method>
+                    <Auto_DRA>On</Auto_DRA>
+                    <IDEX_DRA_Amod/>
+                    <IDEX_DRA_Bmod/>
+                    <DRA_Pmin>0</DRA_Pmin>
+                    <DRA_Pmax>0.9995</DRA_Pmax>
+                    <MTFC_Family>0</MTFC_Family>
+                    <MTFC_Member>5</MTFC_Member>
+                    <TTC_Family>0</TTC_Family>
+                    <TTC_Member>32</TTC_Member>
+                </DisplayAttributes>
+            </Bin>
+        </EnhancementBins>
+    </Record>
+    <Record>
+        <Classification>U</Classification>
+        <RN>4999</RN>
+        <CommonName>DEFAULT SAR NITF ENHANCEMENT</CommonName>
+        <Comment>No Enhancement</Comment>
+        <OriginalEffectivity>Current NSG Product</OriginalEffectivity>
+        <EnhancementBins>
+            <numberOfBins>1</numberOfBins>
+            <Bin>
+                <BinNumber>1</BinNumber>
+                <InputAttributes>
+                    <NumberOfInputAttributes>1</NumberOfInputAttributes>
+                    <InputAttribute>
+                        <AttributeName>ICAT</AttributeName>
+                        <AttributeType>valueList</AttributeType>
+                        <AttributeValues>
+                            <value>SAR     </value>
+                            <value>WBID    </value>
+                        </AttributeValues>
+                    </InputAttribute>
+                </InputAttributes>
+                <DisplayAttributes>
+                    <SAR_InverseRemap>PEDF</SAR_InverseRemap>
+                    <RGB_Band_Order>Use IREPBAND</RGB_Band_Order>
+                    <Default_Rotation>Shadows Down</Default_Rotation>
+                    <Interpolation>LaGrange</Interpolation>
+                    <DRA_Method>Min/Max</DRA_Method>
+                    <Auto_DRA>On</Auto_DRA>
+                    <IDEX_DRA_Amod/>
+                    <IDEX_DRA_Bmod/>
+                    <DRA_Pmin>0</DRA_Pmin>
+                    <DRA_Pmax>0.9995</DRA_Pmax>
+                    <MTFC_Family>0</MTFC_Family>
+                    <MTFC_Member>5</MTFC_Member>
+                    <TTC_Family>0</TTC_Family>
+                    <TTC_Member>32</TTC_Member>
+                </DisplayAttributes>
+            </Bin>
+        </EnhancementBins>
+    </Record>
+    <Record>
+        <recordType>Default</recordType>
+        <Classification>U</Classification>
+        <RN>5000</RN>
+        <CommonName>DEFAULT NITF ENHANCEMENT</CommonName>
+        <Comment>No Enhancement</Comment>
+        <OriginalEffectivity>Current NSG Product</OriginalEffectivity>
+        <EnhancementBins>
+            <numberOfBins>1</numberOfBins>
+            <Bin>
+                <BinNumber>1</BinNumber>
+                <InputAttributes>
+                    <NumberOfInputAttributes>0</NumberOfInputAttributes>
+                </InputAttributes>
+                <DisplayAttributes>
+                    <SAR_InverseRemap/>
+                    <RGB_Band_Order>Use IREPBAND</RGB_Band_Order>
+                    <Default_Rotation>Up is Up</Default_Rotation>
+                    <Interpolation>LaGrange</Interpolation>
+                    <DRA_Method>IDEX</DRA_Method>
+                    <Auto_DRA>On</Auto_DRA>
+                    <IDEX_DRA_Amod>0.1</IDEX_DRA_Amod>
+                    <IDEX_DRA_Bmod>0.5</IDEX_DRA_Bmod>
+                    <DRA_Pmin>0.025</DRA_Pmin>
+                    <DRA_Pmax>0.99</DRA_Pmax>
+                    <MTFC_Family>0</MTFC_Family>
+                    <MTFC_Member>5</MTFC_Member>
+                    <TTC_Family>0</TTC_Family>
+                    <TTC_Member>32</TTC_Member>
+                </DisplayAttributes>
+            </Bin>
+        </EnhancementBins>
+    </Record>
+    <RequiredMetadata>
+        <Attribute>
+            <classification>U</classification>
+            <attrName>ISORCE</attrName>
+            <attrType>InputAttribute</attrType>
+            <sourceLocation>NITF_2.1_ImageSubheader</sourceLocation>
+            <sourceField>ISORCE</sourceField>
+        </Attribute>
+        <Attribute>
+            <classification>U</classification>
+            <attrName>ICAT</attrName>
+            <attrType>InputAttribute</attrType>
+            <sourceLocation>NITF_2.1_ImageSubheader</sourceLocation>
+            <sourceField>ICAT</sourceField>
+        </Attribute>
+        <Attribute>
+            <classification>U</classification>
+            <attrName>Platform_IID2_s</attrName>
+            <attrType>InputAttribute</attrType>
+            <sourceLocation>NITF_2.1_ImageSubheader</sourceLocation>
+            <sourceField>IID2 (8,2)</sourceField>
+        </Attribute>
+        <Attribute>
+            <classification>U</classification>
+            <attrName>VehicleNumber_IID2_s</attrName>
+            <attrType>InputAttribute</attrType>
+            <sourceLocation>NITF_2.1_ImageSubheader</sourceLocation>
+            <sourceField>IID2 (10,2)</sourceField>
+        </Attribute>
+        <Attribute>
+            <classification>U</classification>
+            <attrName>SAR_InverseRemap</attrName>
+            <attrType>DisplayAttribute</attrType>
+            <sourceLocation>HISTOA</sourceLocation>
+            <sourceField>LUTID</sourceField>
+        </Attribute>
+        <Attribute>
+            <classification>U</classification>
+            <attrName>RGB_Band_Order</attrName>
+            <attrType>DisplayAttribute</attrType>
+            <sourceLocation>NITF_2.1_ImageSubheader</sourceLocation>
+            <sourceField>IREPBAND</sourceField>
+        </Attribute>
+        <Attribute>
+            <classification>U</classification>
+            <attrName>IID1</attrName>
+            <attrType>InputAttribute</attrType>
+            <sourceLocation>NITF_2.1_ImageSubheader</sourceLocation>
+            <sourceField>IID1</sourceField>
+        </Attribute>
+        <Attribute>
+            <classification>U</classification>
+            <attrName>ProductType_FTITLE</attrName>
+            <attrType>InputAttribute</attrType>
+            <sourceLocation>NITF_2.1_FileHeader</sourceLocation>
+            <sourceField>FTITLE</sourceField>
+        </Attribute>
+        <Attribute>
+            <classification>U</classification>
+            <attrName>IC</attrName>
+            <attrType>InputAttribute</attrType>
+            <sourceLocation>NITF_2.1_ImageSubheader</sourceLocation>
+            <sourceField>IC</sourceField>
+        </Attribute>
+        <Attribute>
+            <classification>U</classification>
+            <attrName>ProductCreationClass</attrName>
+            <attrType>InputAttribute</attrType>
+            <sourceLocation>XML_DATA_CONTENT</sourceLocation>
+            <sourceField>SIDD.ProductCreation.ProductClass</sourceField>
+        </Attribute>
+        <Attribute>
+            <classification>U</classification>
+            <attrName>ProductCreationType</attrName>
+            <attrType>InputAttribute</attrType>
+            <sourceLocation>XML_DATA_CONTENT</sourceLocation>
+            <sourceField>SIDD.ProductCreation.ProductType</sourceField>
+        </Attribute>
+    </RequiredMetadata>
+    <ChangeLog>
+		<ChangeRecord>
+            <recordClassification>U</recordClassification>
+            <versionNumber>2.5.0</versionNumber>
+            <itemNumber>1</itemNumber>
+            <VersionComment>SIPS Relesae 2.5.0 - Intro TTC Family 6 and Legacy record enhancements </VersionComment>
+            <CommentDate>2022-08-29</CommentDate>
+        </ChangeRecord>
+    </ChangeLog>
+</SIPS_TACQ_NITF_Enh_Map>
