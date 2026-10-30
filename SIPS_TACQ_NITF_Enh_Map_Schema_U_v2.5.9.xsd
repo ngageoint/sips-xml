@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="SIPS_TACQ_NITF_Enh_Map">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Enh_Map_Version" type="xs:unsignedByte" />
+        <xs:element  minOccurs="0" name="ClassificationDisclaimer">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="header" type="xs:string" />
+              <xs:element name="warning" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SIPS_Version" type="xs:string" />
+        <xs:element name="ReportClassification" type="xs:string" />
+        <xs:element name="IssueDate" type="xs:date" />
+        <xs:element name="NumberOfRecords" type="xs:unsignedShort" />
+        <xs:element maxOccurs="unbounded" name="Record">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="recordType" type="xs:string" />
+              <xs:element name="Classification" type="xs:string" />
+              <xs:element name="RN" type="xs:unsignedShort" />
+              <xs:element name="CommonName" type="xs:string" />
+              <xs:element name="Comment" type="xs:string" />
+              <xs:element name="OriginalEffectivity" type="xs:string" />
+              <xs:element name="EnhancementBins">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="numberOfBins" type="xs:unsignedByte" />
+                    <xs:element maxOccurs="unbounded" name="Bin">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="BinNumber" type="xs:unsignedByte" />
+                          <xs:element name="InputAttributes">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="NumberOfInputAttributes" type="xs:unsignedByte" />
+                                <xs:element minOccurs="0" maxOccurs="unbounded" name="InputAttribute">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="AttributeName" type="xs:string" />
+                                      <xs:element name="AttributeType" type="xs:string" />
+                                      <xs:element name="AttributeValues">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element minOccurs="0" name="minInclusive" type="xs:decimal" />
+                                            <xs:element minOccurs="0" name="maxExclusive" type="xs:decimal" />
+                                            <xs:element minOccurs="0" name="maxInclusive" type="xs:unsignedByte" />
+                                            <xs:element minOccurs="0" name="RegularExpression" type="xs:string" />
+                                            <xs:element minOccurs="0" maxOccurs="unbounded" name="value" type="xs:string" />
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="DisplayAttributes">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="SAR_InverseRemap" type="xs:string" />
+                                <xs:element name="RGB_Band_Order" type="xs:string" />
+                                <xs:element name="Default_Rotation" type="xs:string" />
+                                <xs:element name="Interpolation" type="xs:string" />
+                                <xs:element name="DRA_Method" type="xs:string" />
+                                <xs:element name="Auto_DRA" type="xs:string" />
+                                <xs:element name="IDEX_DRA_Amod" type="xs:string" />
+                                <xs:element name="IDEX_DRA_Bmod" type="xs:string" />
+                                <xs:element name="DRA_Pmin" type="xs:string" />
+                                <xs:element name="DRA_Pmax" type="xs:string" />
+                                <xs:element name="MTFC_Family" type="xs:string" />
+                                <xs:element name="MTFC_Member" type="xs:string" />
+                                <xs:element name="TTC_Family" type="xs:string" />
+                                <xs:element name="TTC_Member" type="xs:string" />
+                                <xs:element name="ExtendedAttribute" minOccurs="0" maxOccurs="unbounded">
+                                    <xs:complexType>
+                                        <xs:sequence>
+                                            <xs:element name="ExtendedAttributeName" type="xs:string" minOccurs="1" maxOccurs="1" />
+                                            <xs:element name="ExtendedAttributeValue" type="xs:string" minOccurs="1" maxOccurs="1" />
+                                        </xs:sequence>
+                                    </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="RequiredMetadata">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" name="Attribute">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="classification" type="xs:string" />
+                    <xs:element name="attrName" type="xs:string" />
+                    <xs:element name="attrType" type="xs:string" />
+                    <xs:element minOccurs="0" name="InheritsFromBaseImage" />
+                    <xs:element minOccurs="0" name="InheritsFromFullyProcessedSegment" />
+                    <xs:element minOccurs="0" name="sourceLocation" type="xs:string" />
+                    <xs:element minOccurs="0" name="sourceField" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ChangeLog">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" name="ChangeRecord">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="recordClassification" type="xs:string" />
+                    <xs:element name="versionNumber" type="xs:string" />
+                    <xs:element name="itemNumber" type="xs:unsignedByte" />
+                    <xs:element name="VersionComment" type="xs:string" />
+                    <xs:element name="CommentDate" type="xs:date" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
